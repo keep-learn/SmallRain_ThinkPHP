@@ -1,0 +1,155 @@
+[ 2015-07-06T10:45:33+08:00 ] 127.0.0.1 /Smallrain/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-06T10:46:25+08:00 ] 127.0.0.1 /Smallrain/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-06T10:47:02+08:00 ] 127.0.0.1 /Smallrain/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-06T11:09:30+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:09:30+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:09:35+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:09:35+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:09:37+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:09:37+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:11:00+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:11:00+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:11:16+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:11:16+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:12:43+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:12:43+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:13:16+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:13:16+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:14:20+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:14:20+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:14:55+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:14:55+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:15:50+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:15:50+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:20:48+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/CSS_URLcss/bootstrap.css
+ERR: 非法操作:CSS_URLcss
+
+[ 2015-07-06T11:20:48+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:20:48+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:21:34+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/CSS_URLcss/bootstrap.css
+ERR: 非法操作:CSS_URLcss
+
+[ 2015-07-06T11:21:34+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:21:34+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:22:35+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/CSS_URLcss/bootstrap.css
+ERR: 非法操作:CSS_URLcss
+
+[ 2015-07-06T11:22:35+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/bootstrap.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:22:35+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/App/Common/css/style.css
+ERR: 非法操作:App
+
+[ 2015-07-06T11:30:09+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2015-07-06T11:30:09+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/css/style.css
+ERR: 非法操作:css
+

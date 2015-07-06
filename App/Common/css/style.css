@@ -1,0 +1,141 @@
+.bg{
+	  position: fixed;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	_position:absolute;
+}
+.bg2{
+	background:url('img/bg1.gif');
+	/*height: 2500px;*/
+}
+.left_width{
+	width:190px;
+}
+.scrollnav{ 
+
+	_position:absolute;
+	_top:expression(offsetParent.scrollTop+document.documentElement.clientHeight-this.offsetHeight-300);
+	/*解决IE6 中的固定定位效果的。你可以通过-300 来改变 菜单距离 顶部的*/
+}
+.nav_font{
+	font-size: 
+}
+.foot_font_size{
+	font-size: 16px;
+  	color: gray;
+  	font-weight: 600;
+}
+.img_opacity img{
+	opacity: 0.5;
+	filter:Alpha(opacity=50); /* IE8 以及更早的浏览器 */
+	transition:opacity 0.7s;
+	-moz-transition:opacity 0.7s; /* Firefox 4 */
+	-webkit-transition:opacity 0.7s; /* Safari and Chrome */
+	-o-transition:opacity 0.7s; /* Opera */
+}
+.img_opacity img:hover{
+	opacity: 1.0;
+	cursor :pointer;
+}
+
+
+.nav_font a{
+	color:gray;
+	font-weight: 800;
+	text-decoration: none;
+	font-size: 28px;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: rgba(51,42,37,0.8);
+	transition:background 0.7s;
+	-moz-transition:background 0.7s; /* Firefox 4 */
+	-webkit-transition:background 0.7s; /* Safari and Chrome */
+	-o-transition:background 0.7s; /* Opera */
+}
+.nav_font a:hover{
+	background: red;
+	color:white;
+}
+.nav_font a{
+	margin-top:10px;
+}
+.tool{
+	background: rgba(19,20,21,0.6);
+	/*opacity: 0.5;*/
+	color:white;
+}
+.tool:hover {
+	text-decoration: none;
+	display: block;
+	background: rgba(0,0,0,0.9);
+	transition:background 0.7s;
+	-moz-transition:background 0.7s; /* Firefox 4 */
+	-webkit-transition:background 0.7s; /* Safari and Chrome */
+	-o-transition:background 0.7s; /* Opera */	
+}
+.foot_font_size img{
+	height: 80px;
+	width:80px;
+	border-radius:100px;
+}
+.carousel-inner .item img{
+	width:770px;
+	height: 350px;
+}
+.img_opacity .row{
+	margin-left:8px;
+}
+/*二级页面的css*/
+.passage_contents{
+	text-indent: 2em;
+	/*color:white;*/
+	font-size: 19px;
+	line-height: 30px;
+}
+
+
+.z-top{
+  margin-top:15px;
+}
+.z-name{
+  color: green;
+  margin-top: 10px;
+}
+.z-time{
+
+color:#999;
+}
+
+/*中华军事网,标题字体效果*/
+
+#title_website{
+	font-family:'楷体';color:green;
+	font-size:30px;
+	font-weight: 700px;
+}
+#user_font{
+	font-family:'楷体';color:green;
+	font-size:30px;
+	font-weight: 700px;	
+}
+.img_opacity_detail img{
+	opacity: 1.0;
+	background: green;
+	filter:Alpha(opacity=50); /* IE8 以及更早的浏览器 */
+	transition:opacity 0.7s;
+	-moz-transition:opacity 0.7s; /* Firefox 4 */
+	-webkit-transition:opacity 0.7s; /* Safari and Chrome */
+	-o-transition:opacity 0.7s; /* Opera */
+}
+.img_opacity_detail img:hover{
+	opacity: 0.7;
+	cursor :pointer;
+}
+
+/*登录注册提示字体效果*/
+.alert_font{
+	color:red;
+}
