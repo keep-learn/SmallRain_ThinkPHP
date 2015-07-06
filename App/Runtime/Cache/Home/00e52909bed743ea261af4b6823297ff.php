@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<title>Execise Bootstrap</title>
 	<!-- 引入css -->
-	<link href="<?php echo (COMMON_PATH); ?>css/bootstrap.css" rel="stylesheet">
-	<link href="<?php echo (COMMON_PATH); ?>css/style.css" rel="stylesheet">
-	<link rel="icon" href="<?php echo (COMMON_PATH); ?>img/logo.ico" type="image/x-icon">
+	<link href="<?php echo (CSS_URL); ?>bootstrap.css" rel="stylesheet">
+	<link href="<?php echo (CSS_URL); ?>style.css" rel="stylesheet">
+	<link rel="icon" href="<?php echo (IMG_URL); ?>logo.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -15,10 +15,10 @@
 <div class="container">
 <!-- 左边的导航区开始-->
 
-	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:url('<?php echo (COMMON_PATH); ?>img/bg.jpg');">
+	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:url('<?php echo (IMG_URL); ?>bg.jpg');">
 	<hr/>
 		<div  class="col-md-12">
-		<img class="img-responsive center-block left_width" style="opacity:1.0;filter:Alpha(opacity=100);"  src="<?php echo (COMMON_PATH); ?>img/logo1.jpg"/>
+		<img class="img-responsive center-block left_width" style="opacity:1.0;filter:Alpha(opacity=100);"  src="<?php echo (IMG_URL); ?>logo1.jpg"/>
 		</div>
 	<hr/>
 <!-- 实用工具开始 -->
@@ -93,19 +93,19 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="<?php echo (COMMON_PATH); ?>img/1.jpg" alt="...">
+      <img src="<?php echo (IMG_URL); ?>1.jpg" alt="...">
       <div class="carousel-caption">
         Hello world , this is the first pic
       </div>
     </div>
     <div class="item">
-      <img src="<?php echo (COMMON_PATH); ?>img/2.jpg" alt="...">
+      <img src="<?php echo (IMG_URL); ?>2.jpg" alt="...">
       <div class="carousel-caption">
         Second pic , this is the pic 
       </div>
     </div>
     <div class="item">
-      <img src="<?php echo (COMMON_PATH); ?>img/3.jpg" alt="...">
+      <img src="<?php echo (IMG_URL); ?>3.jpg" alt="...">
       <div class="carousel-caption">
         Third pic , this is the pic 
       </div>
@@ -166,7 +166,7 @@
 				<hr/>
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
-		 		 <img src="<?php echo (COMMON_PATH); ?>img/item1.jpg" class="right_img_size  img-responsive hidden-xs hidden-sm" />
+		 		 <img src="<?php echo (IMG_URL); ?>item1.jpg" class="right_img_size  img-responsive hidden-xs hidden-sm" />
 		 	</div>
 	 	</div>
 	 </div>
@@ -210,7 +210,7 @@
 				<hr/>
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
-		 		 <img src="<?php echo (COMMON_PATH); ?>img/item2.jpg"   id="right_img_size " class=" img-responsive hidden-xs hidden-sm" />
+		 		 <img src="<?php echo (IMG_URL); ?>item2.jpg"   id="right_img_size " class=" img-responsive hidden-xs hidden-sm" />
 		 	</div>
 	 	</div>
 	 </div>
@@ -255,7 +255,7 @@
 				<hr/>
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
-		 		 <img src="<?php echo (COMMON_PATH); ?>img/item3.jpg" class="img-responsive hidden-xs hidden-sm" />
+		 		 <img src="<?php echo (IMG_URL); ?>item3.jpg" class="img-responsive hidden-xs hidden-sm" />
 		 	</div>
 	 	</div>
 	 </div>
@@ -301,7 +301,7 @@
 				<hr/>
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
-		 		 <img src="<?php echo (COMMON_PATH); ?>img/item4.jpg" class="img-responsive hidden-xs hidden-sm" />
+		 		 <img src="<?php echo (IMG_URL); ?>item4.jpg" class="img-responsive hidden-xs hidden-sm" />
 		 	</div>
 	 	</div>
 	 </div>
@@ -320,13 +320,13 @@
 			</div>
 		<br/>
 			<div class="img-responsive col-md-4 col-sm-4 col-xs-4">
-				<img src="<?php echo (COMMON_PATH); ?>img/person1.jpg" class="img-responsive"/>
+				<img src="<?php echo (IMG_URL); ?>person1.jpg" class="img-responsive"/>
 			</div>
 			<div class="img-responsive col-md-4 col-sm-4 col-xs-4">
-				<img src="<?php echo (COMMON_PATH); ?>img/person2.jpg" class="img-responsive"/>
+				<img src="<?php echo (IMG_URL); ?>person2.jpg" class="img-responsive"/>
 			</div>
 			<div class="img-responsive col-md-4 col-sm-4 col-xs-4">
-				<img src="<?php echo (COMMON_PATH); ?>img/person3.jpg" class="img-responsive"/>
+				<img src="<?php echo (IMG_URL); ?>person3.jpg" class="img-responsive"/>
 			</div>
 
 		</div>
@@ -336,13 +336,13 @@
 
 		<br/>
 			<div class="img-responsive col-md-4 col-sm-4 col-xs-4">
-				<img src="<?php echo (COMMON_PATH); ?>img/person4.jpg" class="img-responsive"/>
+				<img src="<?php echo (IMG_URL); ?>person4.jpg" class="img-responsive"/>
 			</div>
 			<div class="img-responsive col-md-4 col-sm-4 col-xs-4">
-				<img src="<?php echo (COMMON_PATH); ?>img/person5.jpg" class="img-responsive"/>
+				<img src="<?php echo (IMG_URL); ?>person5.jpg" class="img-responsive"/>
 			</div>
 			<div class="img-responsive col-md-4 col-sm-4 col-xs-4">
-				<img src="<?php echo (COMMON_PATH); ?>img/person6.jpg" class="img-responsive"/>
+				<img src="<?php echo (IMG_URL); ?>person6.jpg" class="img-responsive"/>
 			</div>
 
 		</div>
@@ -410,9 +410,9 @@
 </body>
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="<?php echo (COMMON_PATH); ?>js/jquery-1.11.1.js"></script>
+<script src="<?php echo (JS_URL); ?>jquery-1.11.1.js"></script>
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="<?php echo (COMMON_PATH); ?>js/bootstrap.min.js"></script>
+<script src="<?php echo (JS_URL); ?>bootstrap.min.js"></script>
 <!-- 屏幕滚动代码 开始 -->
 <script>
 $(document).ready(function(){
