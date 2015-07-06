@@ -17,4 +17,16 @@ class IndexController extends Controller {
     public function register(){
     	$this->display();
     }
+
+    // 二级页面的控制
+    public function show_item_detail(){
+        $this->display('show_item_detail');
+    }
+
+
+    // 空操作方法
+    public function _empty(){
+        // echo "Sorry , do not have the method !";
+        $this->display('empty');
+    }
 }

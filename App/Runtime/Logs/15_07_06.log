@@ -153,3 +153,15 @@ ERR: 非法操作:css
 [ 2015-07-06T11:30:09+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/css/style.css
 ERR: 非法操作:css
 
+[ 2015-07-06T16:37:38+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Inwefweex/losf
+ERR: 非法操作:losf
+
+[ 2015-07-06T16:37:43+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Inwefweex
+ERR: 模板不存在:./App/Home/View/Inwefweex/empty.html
+
+[ 2015-07-06T16:39:48+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Inwefweex/losf
+ERR: 非法操作:losf
+
+[ 2015-07-06T16:39:50+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Inwefweex/losf
+ERR: 非法操作:losf
+

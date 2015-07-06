@@ -133,7 +133,7 @@
 
 
 <!-- 第 1 个导航条 -->
-	<div id="one" class=" img_opacity  col-md-12" style="margin-top:30px;border:0px solid green;background:rgba(186,243,114,0.5)">
+	<div id="one" class=" img_opacity  col-md-12" style="margin-top:30px;border:0px solid green;background:rgba(155,148,94,0.5)">
 	 	<div class="col-md-12" >
 
 	 		 <h2>
@@ -148,7 +148,7 @@
 			   <!-- 每个条目的第1行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;<a href="./detail.html" target="_blank">国产燃气轮机已批量化生产，为下饺子提供全力保障</a> 
+						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;<a href="/Smallrain/index.php/Home/Index/show_item_detail" target="_blank">国产燃气轮机已批量化生产，为下饺子提供全力保障</a> 
 					</div>
 				</div>
 				<hr/>
@@ -156,7 +156,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						<a href="./detail.html" target="_blank"> 泰国顶美压力购华潜艇：17人投票 14人支持中国 </a> 
+						<a href="/Smallrain/index.php/Home/Index/show_item_detail" target="_blank"> 泰国顶美压力购华潜艇：17人投票 14人支持中国 </a> 
 					</div>
 				</div>
 				<hr/>
