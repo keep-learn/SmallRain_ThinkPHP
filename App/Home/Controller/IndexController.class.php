@@ -12,6 +12,27 @@ class IndexController extends Controller {
     public function login(){
     	$this->display();
     }
+    // 登录页面处理
+    public function do_login(){
+        $username=I('post.username');
+        $passwd=md5(I('post.passwd'));
+        $User=M('member');
+        $user_info=$User->where("username='%s'",array($username))->find();
+        $passwd_fr_db=$user_info['passwd'];
+        $user_id=$user_info['user_id'];
+
+        // echo "passwd : ".$passwd."<hr/>";
+        // echo "passwd fr db : ".$passwd_fr_db."<hr/>";
+
+        if($passwd_fr_db==$passwd){
+            $this->success("登录成功 !","index");
+            cookie('login_user_name',$username);
+            cookie('login_user_id',$user_id);
+        }else{
+            $this->error("登录失败,请重新登录 ! ","login");
+        }
+
+    }
 
     // 注册界面
     public function register(){
@@ -29,4 +50,5 @@ class IndexController extends Controller {
         // echo "Sorry , do not have the method !";
         $this->display('empty');
     }
+
 }

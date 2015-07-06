@@ -74,8 +74,12 @@
 			<div class="col-md-3 text-center ">
 			<span id="title_website"> 中华军事网</span>
 			</div>
-			<div class="col-md-2 pull-right text-center" >
-				 <a href="__URL__/login"><button class="btn btn-success">登录</button></a>
+			<div class="col-md-4 pull-right text-center" >
+				 <a href="__URL__/login">
+				 <button class="btn btn-success">
+					<{$Think.cookie.login_user_name}>
+				 </button>
+				 </a>
 				 <a href="__URL__/register"><button class="btn btn-success">注册</button></a>
 			</div>
 	</div>
@@ -348,7 +352,7 @@
 	<!-- 第一排图片开始 -->
 		<div class="col-md-12 ">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				 <h3>小雨滴 团队成员</h3>
+				 <h3><b>小雨滴</b> 团队成员</h3>
 				 <br/>
 			</div>
 		<br/>

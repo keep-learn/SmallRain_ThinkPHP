@@ -1,25 +1,55 @@
 // 登录表单的出来
+// $(function(){
+// 	$("#login_btn").click(function(){
+// 		var $username=$("#username").val();
+// 		var $passwd=$("#passwd").val();
+// 		var matchstr = /^[a-z][a-z_0-9]*$/i;
+// 		$res=matchstr.test($username);
+// 	if($res!=false&&$passwd!=""){
+// 		$(".alert_name").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;用户名输入正确 !</span>");
+// 		$(".alert_passwd").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;密码输入正确 ! </span>");
+// 	}else if($res!=false&&$passwd==""){
+// 		$(".alert_name").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;用户名输入正确 !</span>");
+// 		$(".alert_passwd").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;请填写密码 ! </span>");
+// 	}else if($res==false&&$passwd!=""){
+// 		$(".alert_name").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;用户名输入错误 !</span>");
+// 		$(".alert_passwd").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;密码正确 ! </span>");
+// 	}else{
+// 		$(".alert_name").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;用户名输入错误 !</span>");
+// 		$(".alert_name").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;用户名输入错误 !</span>");	}
+// 	});
+// });
+// 密码项目
+// 用户名列
 $(function(){
-	$("#login_btn").click(function(){
-		var $username=$("#username").val();
-		var $passwd=$("#passwd").val();
-		var matchstr = /^[a-z][a-z_0-9]*$/i;
-		$res=matchstr.test($username);
-	if($res!=false&&$passwd!=""){
-		$(".alert_name").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;用户名输入正确 !</span>");
-		$(".alert_passwd").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;密码输入正确 ! </span>");
-	}else if($res!=false&&$passwd==""){
-		$(".alert_name").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;用户名输入正确 !</span>");
-		$(".alert_passwd").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;请填写密码 ! </span>");
-	}else if($res==false&&$passwd!=""){
-		$(".alert_name").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;用户名输入错误 !</span>");
-		$(".alert_passwd").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;密码正确 ! </span>");
-	}else{
-		$(".alert_name").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;用户名输入错误 !</span>");
-		$(".alert_name").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;用户名输入错误 !</span>");	}
-	});
+    
+      
+   
+    $("#username").keyup(function(){  
+        var $username=$("#username").val();
+        var matchstr = /^[a-z][a-z_0-9]*$/i;
+        $res=matchstr.test($username);
+    if($username.length>10||$username.length<5){
+             $(".alert_name").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;格式不正确 !</span>");            
+    }else{
+        if($res==false){
+             $(".alert_name").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;用户名输入错误 !</span>");            
+        }else{
+             $(".alert_name").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;用户名格式正确 !</span>");            
+        }
+    }
+    });
+     $("#passwd").keyup(function(){
+         var $passwd=$("#passwd").val();
+        if($passwd==""){
+             $(".alert_passwd").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;请填写密码 ! </span>");
+        }else if($passwd.length>10||$passwd.length<5){
+              $(".alert_passwd").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;格式不正确 ! </span>");           
+        }else{
+             $(".alert_passwd").html("<span  class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;密码格式正确 ! </span>");
+        }
+    });
 });
-
 
 // 用户注册,检查密码强度
 // 事件
