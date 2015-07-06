@@ -21,10 +21,18 @@
 				用户名 : <input type="text" class="form-control" name="username" /> 
 						<p class="alert_font">亲 , 请输入用户名</p>
 				<br/>
-				密 码  : <input type="password" class="form-control" name="passwd" />
-						<p class="alert_font">亲 , 请输入密码</p>
-				确认密码  : <input type="password" class="form-control" name="passwd" />
-						<p class="alert_font">亲 , 请输入确认密码</p>
+				密 码  : <input id="passwd" type="password" class="form-control" name="passwd" />
+						<!-- <p class="alert_font">亲 , 请输入密码</p> -->
+						 			 <span id="alert_word " class="alert_font" >密码至6--16位(数字,字母,下划线, * 组合)</span>
+									<span id="weak"></span> &nbsp;&nbsp;&nbsp;
+									<span id="middle"></span>&nbsp;&nbsp;&nbsp;
+									<span id="strength"></span>
+									
+
+				<br/>
+				<br/>
+				确认密码  : <input id="passwd_two" type="password" class="form-control" name="passwd" />
+						<p class="passwd_alert">请确认密码</p>
 				<br/>
 				<input type="reset" class="btn btn-success" value="重置 " /> &nbsp;&nbsp;&nbsp;&nbsp;
 				<input type="submit" class="btn btn-success" value="注册" />

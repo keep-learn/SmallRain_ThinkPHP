@@ -19,3 +19,82 @@ $(function(){
 		$(".alert_name").html("<span  class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;用户名输入错误 !</span>");	}
 	});
 });
+
+
+// 用户注册,检查密码强度
+// 事件
+$(function(){
+  $("#passwd").keyup(function(){
+        $var=$("#passwd").val();
+        AuthPasswd($var);
+  });
+});
+function AuthPasswd(string) {
+    if(string.length >=6&&string.length <=16) {
+        if(/[a-zA-Z]+/.test(string) && /[0-9]+/.test(string) && /\*+/.test(string)) {
+            noticeAssign(1);
+        }else if(/[a-zA-Z]+/.test(string) || /[0-9]+/.test(string) || /\W+\D+/.test(string)) {
+            if(/[a-zA-Z]+/.test(string) && /[0-9]+/.test(string)) {
+                noticeAssign(-1);
+            }else if(/\[a-zA-Z]+/.test(string) && /\W+\D+/.test(string)) {
+                noticeAssign(-1);
+            }else if(/[0-9]+/.test(string) && /\W+\D+/.test(string)) {
+                noticeAssign(-1);
+            }else{
+                noticeAssign(0);
+            }
+        }
+    }else{
+        noticeAssign(null); 
+    }
+}
+// 检查密码强度的函数
+function noticeAssign(num) {
+    if(num == 1) {
+
+        $('#weak').css({backgroundColor:'#009900'});
+        $('#middle').css({backgroundColor:'#009900'});
+        $('#strength').css({backgroundColor:'#009900'});
+        $('#strength').html('密码强度 很 强');
+        $('#middle').html('');
+        $('#weak').html('');
+    }else if(num == -1){
+
+        $('#weak').css({backgroundColor:'#ffcc33'});
+        $('#middle').css({backgroundColor:'#ffcc33'});
+        $('#strength').css({backgroundColor:''});
+        $('#weak').html('');
+        $('#middle').html('密码强度 中');
+        $('#strength').html('');
+    }else if(num ==0) {
+
+        $('#weak').css({backgroundColor:'#C69324'});
+        $('#middle').css({backgroundColor:''});
+        $('#strength').css({backgroundColor:''});
+        $('#weak').html('密码强度 弱');
+        $('#middle').html('');
+        $('#strength').html('');
+    }else{
+
+        $('#weak').html('密码长度不正确 ! ');
+        $('#middle').html('&nbsp;');
+        $('#strength').html('&nbsp;');
+        $('#weak').css({backgroundColor:'#dd0000'});
+        $('#middle').css({backgroundColor:''});
+        $('#strength').css({backgroundColor:''});
+    }
+}
+
+
+// 检查两次密码是否相同
+$(function(){
+	$("#passwd_two").keyup(function(){
+	var $passwd_one=$("#passwd").val();
+	var $passwd_two=$("#passwd_two").val();
+		if($passwd_one==$passwd_two){
+			$(".passwd_alert").html("<span   class='glyphicon glyphicon-ok' aria-hidden='true' style='color:green'>&nbsp;&nbsp;&nbsp;两次密码相同</span>");
+		}else{
+	 		$(".passwd_alert").html("<span   class='glyphicon glyphicon-remove' aria-hidden='true' style='color:red'>&nbsp;&nbsp;&nbsp;两次密码不相同</span>");
+		}
+	});
+});

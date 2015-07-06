@@ -41,25 +41,25 @@
 			
 					<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 
 					&nbsp;&nbsp;
-					军事
+					军情
 			
 		 </a>
 		 <a class="col-md-offset-2 col-md-8 " href="" date-scroll="#two">
 					<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 
 					&nbsp;&nbsp;			 
-					轮船 
+					国际
 			 
 		</a>
 			<a  class="col-md-offset-2 col-md-8  "  href="" date-scroll="#three">
 					<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 
 					&nbsp;&nbsp;			 
-				 火箭
+				 装备
 			 
 			 </a>
 			 <a  class="col-md-offset-2  col-md-8  "  href="" date-scroll="#four">
 					<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 
 					&nbsp;&nbsp;			 
-					大炮 
+					军史
 			 
 			</a>
 
@@ -139,7 +139,7 @@
 	 		 <h2>
 					<span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> 
 					&nbsp;&nbsp;
-	 		 火箭</h2>
+	 		 军情</h2>
 	 		 <hr style="border:1px solid gray"   />
 	 	</div>
 	 	
@@ -148,28 +148,28 @@
 			   <!-- 每个条目的第1行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<a href="./detail.html" target="_blank"> First item </a> 
+						<a href="./detail.html" target="_blank">国产燃气轮机已批量化生产，为下饺子提供全力保障</a> 
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第2行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<a href="./detail.html" target="_blank"> First item </a> 
+						<a href="./detail.html" target="_blank"> 泰国顶美压力购华潜艇：17人投票 14人支持中国 </a> 
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第3行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						外媒：一旦中国划南海识别区 永暑礁将成战机基地
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第4行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						五万吨的雄心：中国H1183巨舰将使夺岛变坦途
 					</div>
 				</div>
 				<hr/>
@@ -186,7 +186,7 @@
 	 		 <h2>
 					<span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> 
 					&nbsp;&nbsp;
-	 		 火箭</h2>
+	 		 国际</h2>
 	 		 <hr style="border:1px solid gray"   />
 	 	</div>
 	 	
@@ -195,28 +195,28 @@
 			   <!-- 每个条目的第1行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						专家：日本将成参战频率最高国家 与美国并列
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第2行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						“阉割”日本媒体 安倍就能堵住悠悠众口吗？
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第3行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						 也门前总统称拒绝沙特“金元诱惑” 将力挺叛军
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第4行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						展望空天特种战：美军可控制别国F-35倒戈攻击
 					</div>
 				</div>
 				<hr/>
@@ -234,7 +234,7 @@
 	 		 <h2>
 					<span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> 
 					&nbsp;&nbsp;
-	 		 火箭</h2>
+	 		 装备</h2>
 	 		 <hr style="border:1px solid gray"   />
 	 	</div>
 	 	
@@ -243,28 +243,28 @@
 			   <!-- 每个条目的第1行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						歼10B总产量猛增：性能先进谁都不卖
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第2行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						 歼31已登“航母甲板” 中国将研制电磁弹射器 
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第3行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						美：中国研超级坦克炮 射程40公里可防空！
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第4行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						中国神雕无人机惊动美军 美欲启动中程导弹应对
 					</div>
 				</div>
 				<hr/>
@@ -282,7 +282,7 @@
 	 		 <h2>
 					<span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> 
 					&nbsp;&nbsp;
-	 		 火箭</h2>
+	 		 军史</h2>
 	 		 <hr style="border:1px solid gray"   />
 	 	</div>
 	 	
@@ -291,7 +291,7 @@
 			   <!-- 每个条目的第1行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						 炮击龙竹坪战斗
 					</div>
 
 				</div>
@@ -299,21 +299,21 @@
 				<!-- 每个条目的第2行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						血肉成城的塔山阻击战
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第3行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						 震惊世界的上甘岭战役
 					</div>
 				</div>
 				<hr/>
 				<!-- 每个条目的第4行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 First item 
+						 抗战初期的川军
 					</div>
 				</div>
 				<hr/>
