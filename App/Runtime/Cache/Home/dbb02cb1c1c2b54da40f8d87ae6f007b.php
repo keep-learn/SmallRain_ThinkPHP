@@ -15,7 +15,7 @@
 <div id="container" style="background:url('<?php echo (IMG_URL); ?>register_bg.jpg');
 	background-position:center;background-size:100% 100%;position:absolute;position:fixed;top:0;bottom:0;right:0;left:0;">
 	<div class="row">
-		<div class="col-md-6 col-sm-6 col-xs-6  col-md-offset-3 col-sm-offset-3 col-xs-offset-3" style="margin-top:100px;background:white;padding:30px;" >
+		<div class="col-md-6 col-sm-6 col-xs-6  col-md-offset-3 col-sm-offset-3 col-xs-offset-3" style="margin-top:100px;background:rgba(255,255,255,0.8);padding:30px;" >
 		<h2 class="text-center">注册界面</h2>
 			<form action="" method="post">
 				用户名 : <input type="text" class="form-control" name="username" /> 
