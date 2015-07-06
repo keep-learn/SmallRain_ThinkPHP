@@ -137,5 +137,11 @@ color:#999;
 
 /*登录注册提示字体效果*/
 .alert_font{
-	color:red;
+	color:green;
+}
+
+
+/*登录背景的设置*/
+.login_big{
+
 }
