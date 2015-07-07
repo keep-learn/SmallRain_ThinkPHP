@@ -195,3 +195,21 @@ ERR: XML标签语法错误 : condition="(<{$Think.cookie.login_user_name}
 [ 2015-07-06T21:33:42+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/index
 ERR: XML标签语法错误 : condition="(<{$Think.cookie.login_user_name}
 
+[ 2015-07-06T23:11:47+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/U('Admin/add_passage')
+ERR: 非法操作:U('Admin
+
+[ 2015-07-06T23:13:09+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/U('Admin/add_passage')
+ERR: 非法操作:U('Admin
+
+[ 2015-07-06T23:13:13+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/U('Admin/add_passage')
+ERR: 非法操作:U('Admin
+
+[ 2015-07-06T23:14:31+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/U('Home/Admin/add_passage')
+ERR: 非法操作:U('Home
+
+[ 2015-07-06T23:16:01+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/%7B:U('User/add')%7D
+ERR: 非法操作:{:U('User
+
+[ 2015-07-06T23:16:35+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/%7B:U('Home/Admin/add_passage')%7D
+ERR: 非法操作:{:U('Home
+

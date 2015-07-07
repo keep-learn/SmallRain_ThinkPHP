@@ -18,7 +18,7 @@
 	<div class="row">
 		<div class="col-md-6 col-sm-6 col-xs-6  col-md-offset-3 col-sm-offset-3 col-xs-offset-3" style="margin-top:100px;background:rgba(255,255,255,0.8);padding:30px;padding-bottom:60px;" >
 		<h2 class="text-center">登录界面</h2>
-	<form action="/SmallRain/index.php/Home/Index/do_login" method="post">		
+	<form action="/Smallrain/index.php/Home/Index/do_login" method="post">		
 				用户名 : <input id="username"  type="text" class="form-control" name="username" /> <br/>
 						<p class="alert_font alert_name">填写 : 用户名以字母开头的,数字字母下划线组合(5---10位)</p> 					
 				<br/>

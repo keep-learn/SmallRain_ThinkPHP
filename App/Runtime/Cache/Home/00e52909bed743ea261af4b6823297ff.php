@@ -75,12 +75,12 @@
 			<span id="title_website"> 中华军事网</span>
 			</div>
 			<div class="col-md-4 pull-right text-center" >
-				 <a href="/SmallRain/index.php/Home/Index/login">
+				 <a href="/Smallrain/index.php/Home/Index/login">
 				 <button class="btn btn-success">
 					<?php echo (cookie('login_user_name')); ?>
 				 </button>
 				 </a>
-				 <a href="/SmallRain/index.php/Home/Index/register"><button class="btn btn-success">注册</button></a>
+				 <a href="/Smallrain/index.php/Home/Index/register"><button class="btn btn-success">注册</button></a>
 			</div>
 	</div>
 	<hr style="border:2px solid green"/>
@@ -152,7 +152,7 @@
 			   <!-- 每个条目的第1行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;<a href="/SmallRain/index.php/Home/Index/show_item_detail" target="_blank">国产燃气轮机已批量化生产，为下饺子提供全力保障</a> 
+						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;<a href="/Smallrain/index.php/Home/Index/show_item_detail" target="_blank">国产燃气轮机已批量化生产，为下饺子提供全力保障</a> 
 					</div>
 				</div>
 				<hr/>
@@ -160,7 +160,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						<a href="/SmallRain/index.php/Home/Index/show_item_detail" target="_blank"> 泰国顶美压力购华潜艇：17人投票 14人支持中国 </a> 
+						<a href="/Smallrain/index.php/Home/Index/show_item_detail" target="_blank"> 泰国顶美压力购华潜艇：17人投票 14人支持中国 </a> 
 					</div>
 				</div>
 				<hr/>

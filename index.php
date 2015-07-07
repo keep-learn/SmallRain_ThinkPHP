@@ -8,7 +8,7 @@ define("SITE_URL","http://127.0.0.1/");
 define("CSS_URL",SITE_URL."SmallRain/APP/Common/css/"); //css
 define("IMG_URL",SITE_URL."SmallRain/APP/Common/img/"); //img
 define("JS_URL",SITE_URL."SmallRain/APP/Common/js/"); //js
-
+define("EDITOR_URL",SITE_URL."SmallRain/APP/Common/ueditor/"); //Editor
 
 require './ThinkPHP/ThinkPHP.php';
  function show_bug($res){
