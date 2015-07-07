@@ -7,7 +7,7 @@
 Hope I can be better and better  
 ```
 
-![](./xzmy1.1/img/index.jpg)
+![](./bg.jpg)
 
 ### 注意: 代码仅供学习参考,不得非法使用
 ### 联系方式 : QQ : 429377083
