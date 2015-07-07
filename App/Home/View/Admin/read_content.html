@@ -4,18 +4,10 @@
 	<title></title>
 </head>
 <body>
-title : <{$info[0]['title']}>  <br/>
-contents: <{$info[0]['content']}> <br/>
-<hr/>
-title : <{$info[1]['title']}>  <br/>
-contents: <{$info[1]['content']|htmlspecialchars_decode}> <br/>
-<hr/>
-title : <{$info[2]['title']}>  <br/>
-contents: <{$info[2]['content'] |htmlspecialchars_decode}> <br/>
-<hr/>
 
-title : <{$info[3]['title']}>  <br/>
-contents: <{$info[3]['content'] |htmlspecialchars_decode}> <br/>
-<hr/>
+<foreach name='info' item="v">
+	 <{$key}>|<{$v.title}>:<{$v.content|htmlspecialchars_decode}>
+	 <hr/>
+</foreach>
 </body>
 </html>
