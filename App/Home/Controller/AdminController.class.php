@@ -30,10 +30,23 @@ class AdminController extends Controller{
 	// 读取文章列表
 	public function read_content(){
 		$Contents=M('passage');
-		$res=$Contents->select();
-		show_bug($res);
-		$this->assign("info",$res);
-		$this->display();
+		// $res=$Contents->select();
+		// show_bug($res);
+		// 选择类型是 1 的文章
+		$res1=$Contents->where('type=1')->getField('title',6);
+		show_bug($res1);
+		// $this->assign("info",$res);
+		// $this->display();
+echo "<hr/>";
+		$res2=$Contents->where('type=2')->getField('title',6);
+		show_bug($res2);
+echo "<hr/>";
+		$res3=$Contents->where('type=3')->getField('title',6);
+		show_bug($res3);		
+echo "<hr/>";
+		$res4=$Contents->where('type=4')->getField('title',6);
+		show_bug($res4);
+
 	}
 
 
