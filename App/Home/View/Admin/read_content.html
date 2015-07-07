@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title></title>
 </head>
 <body>
 
-<foreach name='info' item="v">
-	 <{$key}>|<{$v.title}>:<{$v.content|htmlspecialchars_decode}>
-	 <hr/>
-</foreach>
+
+<?php
+	// var_dump($info);
+	foreach ($info as $key => $value) {
+		echo $value['pass_id'];
+		echo $value['title'];
+			echo htmlspecialchars_decode($value['content'])."<br/>";
+	
+		echo "<hr/>";
+	}
+?>
+
+
 </body>
 </html>

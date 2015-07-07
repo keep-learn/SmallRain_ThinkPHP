@@ -17,6 +17,7 @@ class TestController extends Controller{
 	}
 	public function test2(){
 		echo "login_user_id : ".cookie('login_user_id');
+		echo "<br/>".date("Y-m-d H:i");
 
 	}
 }

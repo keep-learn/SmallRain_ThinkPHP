@@ -77,7 +77,7 @@
 			<div class="col-md-4 pull-right text-center" >
 				 <a href="/Smallrain/index.php/Home/Index/login">
 				 <button class="btn btn-success">
-					<?php echo (cookie('login_user_name')); ?>
+					<?php echo ($login_user_name); ?>
 				 </button>
 				 </a>
 				 <a href="/Smallrain/index.php/Home/Index/register"><button class="btn btn-success">注册</button></a>

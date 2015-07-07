@@ -14,8 +14,8 @@ class AdminController extends Controller{
 		$data['type']=$type;
 		$data['title']=$title;
 		$data['content']=$content;
-		$data['user']="lovezbs";
-		$data['time']='2015/7/7';
+		$data['user']=cookie('login_user_name');
+		$data['time']=date("Y-m-d");
 		// echo $title."type : ".$type."Contents is :".$content;
 		// 将收到的数据查到数据库中
 		$Contents=M('passage');
@@ -31,7 +31,7 @@ class AdminController extends Controller{
 	public function read_content(){
 		$Contents=M('passage');
 		$res=$Contents->select();
-		// show_bug($res);
+		show_bug($res);
 		$this->assign("info",$res);
 		$this->display();
 	}

@@ -216,3 +216,627 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2015-07-07T12:32:59+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'中美关系的研究','&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: ','lovezbs','2015/7/7') [ RunTime:0.099006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T12:33:48+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'中美关系的研究','&lt;p&gt;hello wldld&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.066004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T12:34:26+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'lovezbs','&lt;p&gt;lovezbs&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.073005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T12:41:57+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'bing','&lt;p&gt;bign&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.166010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-07T13:00:38+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.002000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (4,'PHP中curl_init和file_get_contents配合使用','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150707/1436245232495252.jpg&quot; title=&quot;1436245232495252.jpg&quot; alt=&quot;detail.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;','lovezbs','2015/7/7') [ RunTime:0.081005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:01:47+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'在PHP源码的扩展库中默认存在curl的扩展，编译就可以直接安装。','&lt;p&gt;','lovezbs','2015/7/7') [ RunTime:0.090005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:06:25+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'WebSocket 是什么原理？为什么可以实现持久连接？','&lt;h1 style=&quot;box-sizing: border-box; margin: 0px; font-size: 20px; font-family: ','lovezbs','2015/7/7') [ RunTime:0.083005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:08:02+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'oneoneone onenfoneajf','&lt;p&gt;fawefewagvwegvweg&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.081005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:09:07+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (4,'hello world','&lt;p&gt;hello zhang !&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.139008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:25:47+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'大家好,我的名字叫张兵帅,非常高兴见到大家,在这个平台','&lt;p&gt;嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0002.gif&quot;/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.091005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:33:43+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.021001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'hello world','&lt;p&gt;hello world','lovezbs','2015/7/7') [ RunTime:0.051003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:34:44+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'zbs','&lt;p&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0028.gif&quot;/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.066003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:34:57+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.002000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'zbs','&lt;p&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0028.gif&quot;/&gt; lala&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.086005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:35:12+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'zbs','&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: ','lovezbs','2015/7/7') [ RunTime:0.050002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:36:21+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'中国位于','&lt;p&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.051003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:39:21+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'afa','&lt;p&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.078004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:39:30+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'afa','&lt;p&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.063004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:39:38+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'afa','&lt;p&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.089005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-07-07T13:41:21+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'xxxx','&lt;p&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.285017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:42:54+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'aaa','&lt;p&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.128008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:43:45+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'bbbbbb','&lt;p&gt;是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.081004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:44:19+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.007000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'ccccccc','&lt;p&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0003.gif&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.085005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:45:36+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.002000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (4,'shutdown -a 禁止计算机自动关机','&lt;p&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0004.gif&quot;/&gt;','lovezbs','2015/7/7') [ RunTime:0.046002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:45:57+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.005000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (4,'shutdown -a 禁止计算机自动关机','&lt;p&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0004.gif&quot;/&gt;现在笔记本每次连接无线,必须输入 : netsh winsock reset 才可以上网&lt;/p&gt;&lt;p&gt;每次都输入其实,没有什么大不了的,关键是输入完之后,电脑要重新启动,这&lt;/p&gt;&lt;p&gt;点让我无法忍受, 现在查了一下 , shutdown -a 可以阻止其自动关机,正好&lt;/p&gt;&lt;p&gt;解决了我的问题&lt;/p&gt;&lt;p&gt;附加:一些常用的命令&lt;/p&gt;&lt;p&gt;shutdown.exe -a　取消关机&lt;/p&gt;&lt;p&gt;shutdown.exe -s 关机&lt;/p&gt;&lt;p&gt;shutdown.exe -f　强行关闭应用程序&lt;/p&gt;&lt;p&gt;shutdown.exe -m \\\\计算机名　控制远程计算机&lt;/p&gt;&lt;p&gt;shutdown.exe -i　显示“远程关机”图形用户界面，但必须是Shutdown的第一个参数&lt;/p&gt;&lt;p&gt;shutdown.exe -l　注销当前用户&lt;/p&gt;&lt;p&gt;shutdown.exe -r　关机并重启&lt;/p&gt;&lt;p&gt;shutdown.exe -s -t 时间　设置关机倒计时&lt;/p&gt;&lt;p&gt;shutdown.exe -h 休眠&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.055003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:47:52+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'ddddddddddddddd','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150707/1436248058105049.jpg&quot; title=&quot;1436248058105049.jpg&quot; alt=&quot;detail.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;现在笔记本每次连接无线,必须输入 : netsh winsock reset 才可以上网&lt;/p&gt;&lt;p&gt;每次都输入其实,没有什么大不了的,关键是输入完之后,电脑要重新启动,这&lt;/p&gt;&lt;p&gt;点让我无法忍受, 现在查了一下 , shutdown -a 可以阻止其自动关机,正好&lt;/p&gt;&lt;p&gt;解决了我的问题&lt;/p&gt;&lt;p&gt;附加:一些常用的命令&lt;/p&gt;&lt;p&gt;shutdown.exe -a　取消关机&lt;/p&gt;&lt;p&gt;shutdown.exe -s 关机&lt;/p&gt;&lt;p&gt;shutdown.exe -f　强行关闭应用程序&lt;/p&gt;&lt;p&gt;shutdown.exe -m \\\\计算机名　控制远程计算机&lt;/p&gt;&lt;p&gt;shutdown.exe -i　显示“远程关机”图形用户界面，但必须是Shutdown的第一个参数&lt;/p&gt;&lt;p&gt;shutdown.exe -l　注销当前用户&lt;/p&gt;&lt;p&gt;shutdown.exe -r　关机并重启&lt;/p&gt;&lt;p&gt;shutdown.exe -s -t 时间　设置关机倒计时&lt;/p&gt;&lt;p&gt;shutdown.exe -h 休眠&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.114006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-07T13:48:36+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'JSON为什么那样红为什么要用json','&lt;p&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: ','lovezbs','2015/7/7') [ RunTime:0.054003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:49:08+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'JSON为什么那样红为什么要用json','&lt;p&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: ','lovezbs','2015/7/7') [ RunTime:0.081005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:50:00+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'ffffffffffffffffffff','&lt;p&gt;son.org是一种简洁有效的数据载体,是一种用字符串表示复杂js对象的方式，后端好生成，前端0解释,接下来详细介绍json风行的几点原因&lt;/p&gt;&lt;p&gt;现在解释JSON是什么，大家都会说我老土吧，&lt;/p&gt;&lt;p&gt;','lovezbs','2015/7/7') [ RunTime:0.129007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T13:50:59+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'aaaaaaaaaaaaaaaaa','&lt;p&gt;son.org是一种简洁有效的数据载体,是一种用字符串表示复杂js对象的方式，后端好生成，前端0解释,接下来详细介绍json风行的几点原因&lt;/p&gt;&lt;p&gt;现在解释JSON是什么，大家都会说我老土吧，&lt;/p&gt;&lt;p&gt;这里我想分析一下json红的原因，我们又得到什么启示呢。','lovezbs','2015/7/7') [ RunTime:0.060003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T14:42:07+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'mmmmmmmmmmmm','&lt;p&gt;mmmmmmmmmmaaaaaaaaaaaaa&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.112006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-07T14:51:35+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'mmmmmmmmmmmm','&lt;p&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.125007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T14:52:05+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'nnnnnnnnnnnnn','&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家&lt;/span&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.092006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T14:52:27+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'nnnnnnnnnnnnn','&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0003.gif&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家&lt;/span&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.187010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T14:52:55+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'xxxxxxxx','&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0003.gif&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;中国位于亚洲东部，太平洋西岸，&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家&lt;/span&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.083005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T14:53:14+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'xxxxxxxx','&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0003.gif&quot;/&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150707/1436251990110432.jpg&quot; title=&quot;1436251990110432.jpg&quot; alt=&quot;detail.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;中国位于亚洲东部，太平洋西岸，&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家&lt;/span&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.150009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-07T14:55:49+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.006001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'eeeeeeeeeee','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; font-size: 14px; line-height: 23px; color: rgb(51, 51, 51); font-family: 宋体; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;据日本《东洋经济周刊》报道称，2014年12月，网络上流传出已经下水的“海警2901”号海警船的样子。据报道，“海警2901”排水量超过1万吨，配备有76毫米速射炮。　　“海警2901”搭载的76毫米速射炮与一些军舰上使用的主炮属于同等型号。日本海上自卫队的部分护卫舰也装备了这一型号。此前，世界上只有美国海岸警卫队的巡逻船装备该口径的速射炮。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; font-size: 14px; line-height: 23px; color: rgb(51, 51, 51); font-family: 宋体; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;　　中国国家海洋局在2014年1月的全国海洋工作会议上决定全力推进20艘新建海警船的建造工作。中国媒体报道称，其中有10艘3000吨级的巡逻船，还有4艘4000吨级、4艘5000吨级和2艘1万吨级的巡逻船。目前部分巡逻船已部署到位。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; font-size: 14px; line-height: 23px; color: rgb(51, 51, 51); font-family: 宋体; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;　　&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0042.gif&quot;/&gt;文章称，中国海警局以前拥有的排水量最大的巡逻船只有4000吨级，无法对抗日本海上保安厅的“敷岛”级巡逻船。中国希望在东海部署1万吨级的巡逻船，在尖阁诸岛(即我钓鱼岛及其附属岛屿)周边占据比日本海上保安厅更大的优势。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; font-size: 14px; line-height: 23px; color: rgb(51, 51, 51); font-family: 宋体; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;　　对于外国执法机构船舶的活动，是很难通过警察权来应对的，因为这要比国际法规定比较明确的海军活动更难应对。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; font-size: 14px; line-height: 23px; color: rgb(51, 51, 51); font-family: 宋体; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;　　文章称，当前日本关于安全保障法制的讨论是为了填补本国此前在应对方面的空白，但如果只扩大自卫队活动，不同时强化警察和海上保安厅的力量，仍很难应对中国海警局的巡逻船。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.060003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T14:57:05+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.002000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'简氏爆料武汉建造500吨微型潜艇 军事用途成迷','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; font-size: 14px; line-height: 23px; color: rgb(51, 51, 51); font-family: 宋体; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;','lovezbs','2015/7/7') [ RunTime:0.088005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-07T14:58:27+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'外媒曝中国新反潜机独特功能：可指挥水下滑翔机','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; font-size: 14px; line-height: 23px; color: rgb(51, 51, 51); font-family: 宋体; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;','lovezbs','2015/7/7') [ RunTime:0.100006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T14:58:57+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.005001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'外媒曝中国新反潜机独特功能：可指挥水下滑翔机','&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家&lt;/span&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.083004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T14:59:19+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.048003s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'外媒曝中国新反潜机独特功能：可指挥水下滑翔机','&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150707/1436252356290077.jpg&quot; title=&quot;1436252356290077.jpg&quot; alt=&quot;203_144377_137413.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家&lt;/span&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.049003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T15:03:16+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.018001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'照片出自谷歌地图卫星照片','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150707/1436252576589965.jpg&quot; title=&quot;1436252576589965.jpg&quot; alt=&quot;U9298P27T1D834575F26DT20150707095114.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;','lovezbs','2015/7/7') [ RunTime:0.051003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T15:03:39+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'照片出自谷歌地图卫星照片','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150707/1436252576589965.jpg&quot; title=&quot;1436252576589965.jpg&quot; alt=&quot;U9298P27T1D834575F26DT20150707095114.jpg&quot;/&gt;&lt;span style=&quot;font-family: Simsun; font-size: 20px; font-weight: bold;&quot;&gt;1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。 作为五千年历史的文明古国，中国孕育出灿烂&lt;/span&gt;&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.141008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T15:05:02+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'admin','&lt;p&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0061.gif&quot;/&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0055.gif&quot;/&gt;admin&lt;/p&gt;&lt;p&gt;admin hello&lt;/p&gt;','lovezbs','2015/7/7') [ RunTime:0.086005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T15:07:27+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (4,'Come on baby ','&lt;p&gt;You should work hard , for the exam','admin',1436252847) [ RunTime:0.125007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T15:07:41+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (4,'Come on baby ','&lt;p&gt;You should work hard , for the exam','admin',1436252861) [ RunTime:0.092005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T15:07:55+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (4,'Come on baby ','&lt;p&gt;You should work hard , for the exam','admin',1436252875) [ RunTime:0.164009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-07T15:11:18+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'sfafawef','&lt;p&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0003.gif&quot;/&gt;afwa&lt;/p&gt;','admin','2015-07-07 15:11') [ RunTime:0.097006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T15:29:18+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.007001s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'com om ','&lt;p&gt;lalla&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0004.gif&quot;/&gt;&lt;/p&gt;','lovezbs','2015-07-07') [ RunTime:0.093005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
