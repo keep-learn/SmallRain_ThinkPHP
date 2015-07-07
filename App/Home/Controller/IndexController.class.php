@@ -9,17 +9,18 @@ class IndexController extends Controller {
         }else{
             $this->assign("login_user_name","登录");
         }
+
         $Contents=M('passage');
         $res1=$Contents->query("select pass_id ,title from tb_passage where type=1 order by pass_id desc limit 6;");
         $this->assign("items",$res1);  
         
-        $res2=$Contents->order("pass_id desc")->where('type=2')->getField('title',6); 
+        $res2=$Contents->query("select pass_id ,title from tb_passage where type=2 order by pass_id desc limit 6;"); 
         $this->assign("items2",$res2);  
         
-        $res3=$Contents->order("pass_id desc")->where('type=3')->getField('title',6); 
+        $res3=$Contents->query("select pass_id ,title from tb_passage where type=3 order by pass_id desc limit 6;"); 
         $this->assign("items3",$res3);  
         
-        $res4=$Contents->order("pass_id desc")->where('type=4')->getField('title',6); 
+        $res4=$Contents->query("select pass_id ,title from tb_passage where type=4 order by pass_id desc limit 6;"); 
         $this->assign("items4",$res4);  
 
            
@@ -82,6 +83,15 @@ class IndexController extends Controller {
         // 将文章的id放到表中的隐藏表单中
         $Info=M('passage')->where('pass_id='.$id)->find();
         // show_bug($Info);
+        // 用户名
+        // $user_name=cookie('login_user_name');
+        // $this->assign("user_name",$user_name);
+        // 分配评论的信息
+        $comment=M('comment');
+        // $info=$comment->order('pass_id asc')->select();
+        $info=$comment->query("select * from tb_comment where pass_id=".$id." ;");
+        // show_bug($info);
+        $this->assign("info",$info);
 
 
         // 分配用户名信息
@@ -93,6 +103,10 @@ class IndexController extends Controller {
         // 分配文章的id
         $this->assign('pass_id',$id);
         // 分配文章的内容
+
+
+
+
         $this->assign('pass_info',$Info);
         $this->display('show_item_detail');
     }

@@ -7,7 +7,6 @@
 	<link href="<{$Think.const.CSS_URL}>bootstrap.css" rel="stylesheet">
   <link href="<{$Think.const.CSS_URL}>style.css" rel="stylesheet">
     <link rel="icon" href="<{$Think.const.IMG_URL}>logo.ico" type="image/x-icon">
-
 </head>
 
 <body>
@@ -37,10 +36,10 @@
       <div class="col-md-8 col-sm-8 col-xs-12 "  style="background:#EDE8E8 ;padding-bottom:40px;">
       <!-- 文章的标题部分 -->
             <div class="col-md-12 text-center">
-               <h1><{$pass_info.title}></h1>
-               <hr/>
+               <h3><{$pass_info.title}></h3>
+               
                <div class="col-md-4 col-sm-4 col-xs col-md-offset-5 col-sm-offset-5 col-xs-offset-5 text-right">
-                 <h4><{$pass_info.time}> &nbsp;&nbsp;<{$pass_info.user}></h4>
+                 <h5><{$pass_info.time}> &nbsp;&nbsp;<{$pass_info.user}></h5> <hr/>
                </div>
             </div>
       <!-- 文章的图片 -->
@@ -69,43 +68,28 @@
        <b style="font-size: 24px;color: #EA4D10; margin-bottom: -1px;">热门评论</b>
         <hr>
       <!-- 第1个评论 -->
+<volist name="info" id="v">
         <div class="col-sm-12 col-md-12 col-lg-12  ">
            <div class="col-sm-9 col-md-9 col-lg-9 z-top" >
-              <b class="z-name">小雨滴</b> &nbsp;&nbsp;&nbsp;
-              <span class="z-time">2015/7/6</span> 
+              <b class="z-name"><span style="color:#EA4D10">User ID</span> : <{$v.user_id}> </b> &nbsp;&nbsp;&nbsp;
+              <span class="z-time"><{$v.time}></span> 
            </div> 
             <div class="col-sm-3 col-md-3 col-lg-3 text-right  z-top" >
-            1  <b class="z-name">Floor</b>
+            <{$v.ip}>  <b class="z-name"><span style="color:#EA4D10">IP</span></b>
             </div>
             <hr/>
            <div class="z-content col-sm-12 col-md-12 col-lg-12">
-              这段文字just for testing ! 
+              <{$v.say}>
            </div>
         </div>
-      <!-- 第2个评论 -->
+        <div class="col-md-12">
+            <hr style="border:1px solid #6FB96F"/>
+        </div>
+</volist>
+<div id="add_comment" class="col-sm-12 col-md-12 col-lg-12 ">
+  
+</div>
 
-        <div class="col-sm-12 col-md-12 col-lg-12  ">
-           <div class="col-sm-9 col-md-9 col-lg-9 z-top" >
-              <b class="z-name">小雨滴</b> &nbsp;&nbsp;&nbsp;
-              <span class="z-time">2015/7/6</span> 
-           </div> 
-            <div class="col-sm-3 col-md-3 col-lg-3 text-right  z-top" >1<b class="z-name">Floor</b></div>
-           <div class="z-content col-sm-12 col-md-12 col-lg-12">
-              这段文字justtest 
-           </div>
-        </div>
-
-      <!-- 第3个评论 -->
-        <div class="col-sm-12 col-md-12 col-lg-12  ">
-           <div class="col-sm-9 col-md-9 col-lg-9 z-top" >
-              <b class="z-name">小雨滴</b> &nbsp;&nbsp;&nbsp;
-              <span class="z-time">2015/7/6</span> 
-           </div> 
-            <div class="col-sm-3 col-md-3 col-lg-3 text-right  z-top" >1<b class="z-name">Floor</b></div>
-           <div class="z-content col-sm-12 col-md-12 col-lg-12">
-              这段文字justtest 
-           </div>
-        </div>
       <!-- 评论部分的结束 -->
       </div>
       <!-- 左边主题内容区结束 -->
@@ -234,12 +218,12 @@
           $('#btn_say_word').click(function(){
             // 获取作者发的内容
               $say_words=$("#say_words").val();
-              alert("The words is "+$say_words);
+              // alert("The words is "+$say_words);
               // 获取文章的id
               $pass_id=$("#pass_id").val();
               // 添加文章的url
               $add_comment_url=$("#add_comment_url").val();
-              alert("pass_id is "+$pass_id);
+              // alert("pass_id is "+$pass_id);
               // 获取用户的id  /都从控制器中来获得信息
               // 获取时间  /都从控制器中来获得信息
               // 获取ip   /都从控制器中来获得信息
@@ -249,7 +233,8 @@
                 url :$add_comment_url,
                 data:"say_words="+$say_words+"&pass_id="+$pass_id,
                 success:function(data){
-                    alert("Success : "+data);
+                    alert("评论发表 成功 ! ");
+                    $("#add_comment").append("<b style='color:#EA4D10;font-size:24px;'>发表的内容是 :</b> <b style='color:green;font-size:24px;'>"+$say_words);
                 }
               });
               // 显示发表的评论

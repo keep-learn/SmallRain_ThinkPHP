@@ -20,6 +20,14 @@ class TestController extends Controller{
 		echo "<br/>".date("Y-m-d H:i");
 
 	}
+	// 读出列表信息
+	public function test3(){
+		$comment=M('comment');
+		$info=$comment->select();
+		show_bug($info);
+		$this->assign("info",$info);
+		$this->display('test');
+	}
 }
 
 ?>

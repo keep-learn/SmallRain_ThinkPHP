@@ -154,7 +154,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 <a href="/Smallrain/index.php/Home/Index/show_item_detail/<?php echo ($v["pass_id"]); ?>" target="_blank">
+						 <a href="/Smallrain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						 <?php echo ($v["title"]); ?>
 						 </a> 
 					</div>
