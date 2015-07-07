@@ -33,9 +33,17 @@ class AdminController extends Controller{
 		// $res=$Contents->select();
 		// show_bug($res);
 		// 选择类型是 1 的文章
-		$res1=$Contents->where('type=1')->getField('title',6);
-		show_bug($res1);
-
+		// $res1=$Contents->where('type=1')->order("pass_id desc")->getField('pass_id,title',6);
+		$res1=$Contents->query("select pass_id ,title from tb_passage where type=1 order by pass_id desc limit 6;");
+		var_dump($res1);
+		// show_bug($res1);
+		// echo "<hr/>";
+		// $res1=$Contents->where('type=1')->order("pass_id desc")->getField('pass_id',6);
+		// show_bug($res1);
+		// echo "<hr/>";
+		// $res1=$Contents->where('type=1')->order("pass_id desc")->getField('title',6);
+		// show_bug($res1);
+		
 		// $this->assign("info",$res);
 		// $this->display();
 // echo "<hr/>";
@@ -48,9 +56,9 @@ class AdminController extends Controller{
 // 		$res4=$Contents->where('type=4')->getField('title',6);
 // 		show_bug($res4);
 		// $this->display();
-		echo "<hr/>";
-		echo "title one is ".$res1[0];
-		echo "<hr/>";
+		// echo "<hr/>";
+		// echo "title one is ".$res1[0];
+		// echo "<hr/>";
 		$this->assign("items",$res1);
 		$this->display();
 

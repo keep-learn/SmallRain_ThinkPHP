@@ -5,19 +5,17 @@
 	<title></title>
 </head>
 <body>
-<volist name="items" id="vo" mod="2" >
-
-<{$vo}><br/>
-
+<volist name="items" id="v"  >
+	 <{$v.pass_id}> <br/>
+	 <{$v.title}> <br/>
 </volist>
 
-
-
-zhang bing shuai 
 <?php
-echo ":".$items[1];
+var_dump($items);
+echo "<hr/>";
+echo "hejh";
 ?>
-
 
 </body>
 </html>
+

@@ -1155,3 +1155,104 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+[ 2015-07-07T16:55:01+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.042003s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'解放军全军唯一空降医疗队曝光！人员装备全部空投','&lt;pre style=&quot;color: red;&quot;&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0028.gif&quot;/&gt;&lt;/pre&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','lovezbs','2015-07-07') [ RunTime:0.046002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T17:00:22+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'中国4艘亚洲最大客滚船完成军事改造','&lt;p&gt;Hello world&lt;/p&gt;','lovezbs','2015-07-07') [ RunTime:0.064004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T17:32:48+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/show_item_detail/26
+ERR: Think\Controller:_param方法不存在！
+
+[ 2015-07-07T20:01:01+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/show_item_detail/26
+ERR: Think\Controller:_param方法不存在！
+
+[ 2015-07-07T20:01:27+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/show_item_detail/26
+ERR: Think\Controller:_param方法不存在！
+
+[ 2015-07-07T20:44:39+08:00 ] 127.0.0.1 /Smallrain/index.php/Home/Index/show_item_detail/id/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tb_passage` WHERE ( pass_id=Home ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'Home' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_passage` WHERE ( pass_id=Home ) LIMIT 1  
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T20:55:58+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-07T21:21:11+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='lovezbs' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-07T21:22:20+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='lovezbs' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.005000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (26,1,'hello','2015-07-07 09:22 pm','127.0.0.1') [ RunTime:0.089005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

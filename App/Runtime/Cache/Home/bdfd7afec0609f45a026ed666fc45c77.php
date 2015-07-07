@@ -5,14 +5,11 @@
 	<title></title>
 </head>
 <body>
-<?php if(is_array($items)): $i = 0; $__LIST__ = $items;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; echo ($vo); ?><br/><?php endforeach; endif; else: echo "" ;endif; ?>
+<?php if(is_array($items)): $i = 0; $__LIST__ = $items;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i; echo ($v["pass_id"]); ?> <br/>
+	 <?php echo ($v["title"]); ?> <br/><?php endforeach; endif; else: echo "" ;endif; ?>
 
-
-
-zhang bing shuai 
 <?php
-echo ":".$items[1]; ?>
-
+var_dump($items); echo "<hr/>"; echo "hejh"; ?>
 
 </body>
 </html>

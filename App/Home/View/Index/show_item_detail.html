@@ -23,7 +23,11 @@
           
       </div>
       <div class="col-md-4 col-sm-4 col-xs-4 pull-right text-right">
-          <span id="user_font"><button class="btn btn-lg btn-info">小雨滴</button></span>
+          <span id="user_font">
+          <a href="__URL__/index">
+          <button class="btn btn-lg btn-info"><{$login_user_name}></button>
+          </a>
+          </span>
       </div>
 
   </div>
@@ -33,10 +37,10 @@
       <div class="col-md-8 col-sm-8 col-xs-12 "  style="background:#EDE8E8 ;padding-bottom:40px;">
       <!-- 文章的标题部分 -->
             <div class="col-md-12 text-center">
-               <h1>中美关系的研究</h1>
+               <h1><{$pass_info.title}></h1>
                <hr/>
                <div class="col-md-4 col-sm-4 col-xs col-md-offset-5 col-sm-offset-5 col-xs-offset-5 text-right">
-                 <h4>2015/7/5 &nbsp;&nbsp;&nbsp; 作者:阳光</h4>
+                 <h4><{$pass_info.time}> &nbsp;&nbsp;<{$pass_info.user}></h4>
                </div>
             </div>
       <!-- 文章的图片 -->
@@ -46,17 +50,18 @@
       <br/>
 
       <p class="passage_contents">
-      中国位于亚洲东部，太平洋西岸，陆地面积约960万平方千米，东部和南部大陆海岸线1.8万多千米，内海和边海的水域面积约470多万平方千米；海域分布有大小岛屿7600多个，其中台湾岛最大；同14国接壤，与8国隔海相望；共34个省级行政区划，分别是23个省、4个直辖市、5个自治区、2个特别行政区；首都北京。 [1] 
-中国是一个以华夏文明为主体、以汉族为主体民族的统一多民族国家。中国境内56个民族统称为中华民族，龙是中华民族的象征。距今约5000年前，以中原地区为中心开始出现规模较大的部落。约公元前21世纪，中国第一个朝代夏朝建立，此后历经商、周、秦、汉、晋、隋、唐、宋、元、明、清等朝代，直至20世纪初辛亥革命后，君主专制政体退出中国历史，取而代之的是共和政体。1912年1月1日中华民国成立，1949年10月1日中华人民共和国成立。
-作为五千年历史的文明古国，中国孕育出灿烂的中华文化，在语言、文字、建筑、饮食、哲学、文学、医学、历法、戏曲、音乐、绘画等各方各面都有显著的特色，并且强烈影响了周边国家。
+            <{$pass_info.content|htmlspecialchars_decode}>
       </p>
       <!-- 富文本编辑器开始 -->
       <hr/>
+      <input type="hidden" id="pass_id" value="<{$pass_id}>"/>
+      <!-- 添加评论的url -->
+      <input type="hidden" id="add_comment_url" value="<{$Think.const.ADD_COMMENTS_URL}>"/>
       <h3>发表评论</h3>
-      <textarea class="form-control " rows="5"></textarea>
+      <textarea id="say_words" class="form-control " rows="5"></textarea>
       <br/>
 
-      <button class="btn btn-success">发表评论</button>
+      <button id="btn_say_word" class="btn btn-success">发表评论</button>
       <hr/>
       <!-- 富文本编辑器结束 -->
 
@@ -222,7 +227,34 @@
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="<{$Think.const.JS_URL}>jquery-1.11.1.js"></script>
-<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="<{$Think.const.JS_URL}>bootstrap.min.js"></script>
+
+<!-- 发表评论的js -->
+<script type="text/javascript">
+    $(function(){
+          $('#btn_say_word').click(function(){
+            // 获取作者发的内容
+              $say_words=$("#say_words").val();
+              alert("The words is "+$say_words);
+              // 获取文章的id
+              $pass_id=$("#pass_id").val();
+              // 添加文章的url
+              $add_comment_url=$("#add_comment_url").val();
+              alert("pass_id is "+$pass_id);
+              // 获取用户的id  /都从控制器中来获得信息
+              // 获取时间  /都从控制器中来获得信息
+              // 获取ip   /都从控制器中来获得信息
+              // Ajax 插入到数据库
+              $.ajax({
+                type:"post",
+                url :$add_comment_url,
+                data:"say_words="+$say_words+"&pass_id="+$pass_id,
+                success:function(data){
+                    alert("Success : "+data);
+                }
+              });
+              // 显示发表的评论
+          });
+    });
+</script>
 
 </html>

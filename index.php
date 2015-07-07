@@ -10,6 +10,8 @@ define("IMG_URL",SITE_URL."SmallRain/APP/Common/img/"); //img
 define("JS_URL",SITE_URL."SmallRain/APP/Common/js/"); //js
 define("EDITOR_URL",SITE_URL."SmallRain/APP/Common/ueditor/"); //Editor
 
+// 发表评论处理的url地址
+define("ADD_COMMENTS_URL",SITE_URL."SmallRain/index.php/Home/Index/add_comments");
 require './ThinkPHP/ThinkPHP.php';
  function show_bug($res){
  	header("content-type:text/html;charset=utf-8");
