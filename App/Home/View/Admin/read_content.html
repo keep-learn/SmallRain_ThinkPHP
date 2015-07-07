@@ -5,17 +5,17 @@
 	<title></title>
 </head>
 <body>
+<volist name="items" id="vo" mod="2" >
+
+<{$vo}><br/>
+
+</volist>
 
 
+
+zhang bing shuai 
 <?php
-	// var_dump($info);
-	foreach ($info as $key => $value) {
-		echo $value['pass_id'];
-		echo $value['title'];
-			echo htmlspecialchars_decode($value['content'])."<br/>";
-	
-		echo "<hr/>";
-	}
+echo ":".$items[1];
 ?>
 
 

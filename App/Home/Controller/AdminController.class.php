@@ -35,17 +35,24 @@ class AdminController extends Controller{
 		// 选择类型是 1 的文章
 		$res1=$Contents->where('type=1')->getField('title',6);
 		show_bug($res1);
+
 		// $this->assign("info",$res);
 		// $this->display();
-echo "<hr/>";
-		$res2=$Contents->where('type=2')->getField('title',6);
-		show_bug($res2);
-echo "<hr/>";
-		$res3=$Contents->where('type=3')->getField('title',6);
-		show_bug($res3);		
-echo "<hr/>";
-		$res4=$Contents->where('type=4')->getField('title',6);
-		show_bug($res4);
+// echo "<hr/>";
+// 		$res2=$Contents->where('type=2')->getField('title',6);
+// 		show_bug($res2);
+// echo "<hr/>";
+// 		$res3=$Contents->where('type=3')->getField('title',6);
+// 		show_bug($res3);		
+// echo "<hr/>";
+// 		$res4=$Contents->where('type=4')->getField('title',6);
+// 		show_bug($res4);
+		// $this->display();
+		echo "<hr/>";
+		echo "title one is ".$res1[0];
+		echo "<hr/>";
+		$this->assign("items",$res1);
+		$this->display();
 
 	}
 

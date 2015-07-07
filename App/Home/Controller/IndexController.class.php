@@ -9,6 +9,20 @@ class IndexController extends Controller {
         }else{
             $this->assign("login_user_name","登录");
         }
+        $Contents=M('passage');
+        $res1=$Contents->where('type=1')->getField('title',6); 
+        $this->assign("items",$res1);  
+        
+        $res2=$Contents->where('type=2')->getField('title',6); 
+        $this->assign("items2",$res2);  
+        
+        $res3=$Contents->where('type=3')->getField('title',6); 
+        $this->assign("items3",$res3);  
+        
+        $res4=$Contents->where('type=4')->getField('title',6); 
+        $this->assign("items4",$res4);  
+
+           
         $this->display();
     }
 

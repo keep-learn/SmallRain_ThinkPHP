@@ -73,14 +73,14 @@
 			$type=$('#type  option:selected') .val();
 			$content=UE.getEditor('editor').getContent();
 			// 将收到的数据打印出来
-			alert("titl is : "+$title+"type is : "+$type+"contents is : "+$content);
+			// alert("titl is : "+$title+"type is : "+$type+"contents is : "+$content);
 			// 通过ajax传输数据
 			$.ajax({
 				type:"post",
 				url:"get_content",
 				data:"title="+$title+"&type="+$type+"&content="+$content,
 				success:function(data){
-					alert(data);
+					// alert(data);
 				},
 				error:function(){
 					alert("sorry");

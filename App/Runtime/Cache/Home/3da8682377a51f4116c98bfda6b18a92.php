@@ -77,7 +77,7 @@
 			<div class="col-md-4 pull-right text-center" >
 				 <a href="/Smallrain/index.php/Home/Index/login">
 				 <button class="btn btn-success">
-					<?php echo (cookie('login_user_name')); ?>
+					<?php echo ($login_user_name); ?>
 				 </button>
 				 </a>
 				 <a href="/Smallrain/index.php/Home/Index/register"><button class="btn btn-success">注册</button></a>
@@ -149,37 +149,19 @@
 	 	
 	 	<div class="row ">
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-			   <!-- 每个条目的第1行 -->
+<!-- 开始循环 -->
+<?php if(is_array($items)): $i = 0; $__LIST__ = $items;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><!-- 每个条目的第1行 -->
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;<a href="/Smallrain/index.php/Home/Index/show_item_detail" target="_blank">国产燃气轮机已批量化生产，为下饺子提供全力保障</a> 
+						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
+						 <a href="/Smallrain/index.php/Home/Index/show_item_detail" target="_blank">
+						 <?php echo ($v); ?>
+						 </a> 
 					</div>
 				</div>
-				<hr/>
-				<!-- 每个条目的第2行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						<a href="/Smallrain/index.php/Home/Index/show_item_detail" target="_blank"> 泰国顶美压力购华潜艇：17人投票 14人支持中国 </a> 
-					</div>
-				</div>
-				<hr/>
-				<!-- 每个条目的第3行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						外媒：一旦中国划南海识别区 永暑礁将成战机基地
-					</div>
-				</div>
-				<hr/>
-				<!-- 每个条目的第4行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						五万吨的雄心：中国H1183巨舰将使夺岛变坦途
-					</div>
-				</div>
-				<hr/>
+				<hr/><?php endforeach; endif; else: echo "" ;endif; ?>
+<!-- 结束循环	 -->
+
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
 		 		 <img src="<?php echo (IMG_URL); ?>item1.jpg" class="right_img_size  img-responsive hidden-xs hidden-sm" />
@@ -200,37 +182,16 @@
 	 	<div class="row  ">
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 			   <!-- 每个条目的第1行 -->
-				<div class="row">
+<!-- 循环的开始 -->
+<?php if(is_array($items2)): $i = 0; $__LIST__ = $items2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						专家：日本将成参战频率最高国家 与美国并列
+						<?php echo ($v); ?>
 					</div>
 				</div>
-				<hr/>
-				<!-- 每个条目的第2行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						“阉割”日本媒体 安倍就能堵住悠悠众口吗？
-					</div>
-				</div>
-				<hr/>
-				<!-- 每个条目的第3行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 也门前总统称拒绝沙特“金元诱惑” 将力挺叛军
-					</div>
-				</div>
-				<hr/>
-				<!-- 每个条目的第4行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						展望空天特种战：美军可控制别国F-35倒戈攻击
-					</div>
-				</div>
-				<hr/>
+				<hr/><?php endforeach; endif; else: echo "" ;endif; ?>
+<!-- 循环的结束 -->
+
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
 		 		 <img src="<?php echo (IMG_URL); ?>item2.jpg"   id="right_img_size " class=" img-responsive hidden-xs hidden-sm" />
@@ -252,37 +213,13 @@
 	 	<div class="row  ">
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 			   <!-- 每个条目的第1行 -->
-				<div class="row">
+<?php if(is_array($items3)): $i = 0; $__LIST__ = $items3;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						歼10B总产量猛增：性能先进谁都不卖
+						<?php echo ($v); ?>
 					</div>
 				</div>
-				<hr/>
-				<!-- 每个条目的第2行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 歼31已登“航母甲板” 中国将研制电磁弹射器 
-					</div>
-				</div>
-				<hr/>
-				<!-- 每个条目的第3行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						美：中国研超级坦克炮 射程40公里可防空！
-					</div>
-				</div>
-				<hr/>
-				<!-- 每个条目的第4行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						中国神雕无人机惊动美军 美欲启动中程导弹应对
-					</div>
-				</div>
-				<hr/>
+				<hr/><?php endforeach; endif; else: echo "" ;endif; ?>
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
 		 		 <img src="<?php echo (IMG_URL); ?>item3.jpg" class="img-responsive hidden-xs hidden-sm" />
@@ -304,38 +241,14 @@
 	 	<div class="row  ">
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 			   <!-- 每个条目的第1行 -->
-				<div class="row">
+<?php if(is_array($items4)): $i = 0; $__LIST__ = $items4;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 炮击龙竹坪战斗
+						 <?php echo ($v); ?>
 					</div>
 
 				</div>
-				<hr/>
-				<!-- 每个条目的第2行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						血肉成城的塔山阻击战
-					</div>
-				</div>
-				<hr/>
-				<!-- 每个条目的第3行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 震惊世界的上甘岭战役
-					</div>
-				</div>
-				<hr/>
-				<!-- 每个条目的第4行 -->
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 抗战初期的川军
-					</div>
-				</div>
-				<hr/>
+				<hr/><?php endforeach; endif; else: echo "" ;endif; ?>
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
 		 		 <img src="<?php echo (IMG_URL); ?>item4.jpg" class="img-responsive hidden-xs hidden-sm" />
