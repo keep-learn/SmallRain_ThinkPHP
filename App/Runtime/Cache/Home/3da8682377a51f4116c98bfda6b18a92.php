@@ -6,7 +6,7 @@
 	<!-- 引入css -->
 	<link href="<?php echo (CSS_URL); ?>bootstrap.css" rel="stylesheet">
 	<link href="<?php echo (CSS_URL); ?>style.css" rel="stylesheet">
-	<link rel="icon" href="<?php echo (IMG_URL); ?>logo.ico" type="image/x-icon">
+	<link rel="icon" href="<?php echo (IMG_URL); ?>favicon.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -26,11 +26,13 @@
 <!-- 实用工具开始 -->
 		<div class="col-md-12  text-center" style="margin-top:20px;">
 			<div class=" tool  col-md-8  col-md-offset-2  "  >
-			<h4><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;实用工具</h4>
+			<h4><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;天气预报</h4>
 		
 			<div class=" text-center ">
-				<h5>天气预报</h5>
-				<h6>咸阳 : 晴 </h6>
+				<h6><?php echo ($curr_time); ?></h6>
+				<h6><?php echo ($city); ?>   </h6>
+				<h6><?php echo ($temprature); ?></h6>
+				<h6><img src="<?php echo ($weather_img); ?>"/></h6>
 	
 			</div>
 			</div>

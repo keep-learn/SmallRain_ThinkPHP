@@ -4,8 +4,10 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 define('APP_DEBUG',True);
 define('APP_PATH','./App/');
 
-// define("SITE_URL","http://127.0.0.1/");
-define("SITE_URL","http://172.16.129.10/");
+// 获取域名信息
+// $host=$_SERVER['SERVER_NAME'];
+define("SITE_URL","http://127.0.0.1/");
+// define("SITE_URL","http://172.16.129.10/");
 define("CSS_URL",SITE_URL."SmallRain/APP/Common/css/"); //css
 define("IMG_URL",SITE_URL."SmallRain/APP/Common/img/"); //img
 define("JS_URL",SITE_URL."SmallRain/APP/Common/js/"); //js

@@ -6,7 +6,7 @@
 	<!-- 引入css -->
 	<link href="<?php echo (CSS_URL); ?>bootstrap.css" rel="stylesheet">
 	<link href="<?php echo (CSS_URL); ?>style.css" rel="stylesheet">
-	<link rel="icon" href="<?php echo (IMG_URL); ?>logo.ico" type="image/x-icon">
+	<link rel="icon" href="<?php echo (IMG_URL); ?>favicon.ico" type="image/x-icon">
 
 
 </head>
