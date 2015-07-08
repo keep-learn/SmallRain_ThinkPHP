@@ -450,3 +450,29 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+[ 2015-07-08T22:02:19+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'Hello kitty ','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150708/1436364130869242.jpg&quot; title=&quot;1436364130869242.jpg&quot; alt=&quot;12.jpg&quot; width=&quot;463&quot; height=&quot;299&quot; style=&quot;width: 463px; height: 299px;&quot;/&gt;&lt;/p&gt;','SmallRain','2015-07-08') [ RunTime:0.123007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-08T22:02:19+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.002000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'Hello kitty ','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150708/1436364130869242.jpg&quot; title=&quot;1436364130869242.jpg&quot; alt=&quot;12.jpg&quot; width=&quot;463&quot; height=&quot;299&quot; style=&quot;width: 463px; height: 299px;&quot;/&gt;&lt;/p&gt;','SmallRain','2015-07-08') [ RunTime:0.097006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

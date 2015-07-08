@@ -1,2 +1,1 @@
-<?php if (!defined('THINK_PATH')) exit(); if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i; echo ($v["say"]); ?>
-	<?php echo ($v["time"]); ?> <hr/><?php endforeach; endif; else: echo "" ;endif; ?>
+<?php if (!defined('THINK_PATH')) exit();?>img_url is : <?php echo (IMG_URL); ?>

@@ -8,7 +8,7 @@ class TestController extends Controller{
 		$res=$info->select();
 		show_bug($res);
 	}
-	public function test(){
+	public function test4(){
 		$user="ZhangBingShuai";
 		echo "username is : ".$user;
 		cookie('use_name','ZBingShuai');
@@ -26,6 +26,9 @@ class TestController extends Controller{
 		$info=$comment->select();
 		show_bug($info);
 		$this->assign("info",$info);
+		$this->display('test');
+	}
+	public function test(){
 		$this->display('test');
 	}
 }

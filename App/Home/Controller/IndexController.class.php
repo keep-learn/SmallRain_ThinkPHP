@@ -172,7 +172,7 @@ function show_weather($city="西安"){
     $this->assign("weather_img",$day_img);
     // echo "<img src='".$day_img."'/>";
     // echo "<hr/>";
-    echo "概要 : ".$decode->results[0]->weather_data[0]->date;
+    // echo "概要 : ".$decode->results[0]->weather_data[0]->date;
     // echo "<hr/>";
     // echo "温度: ".$decode->results[0]->weather_data[0]->temperature;
     $temprature=$decode->results[0]->weather_data[0]->temperature;
