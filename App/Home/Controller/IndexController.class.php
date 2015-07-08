@@ -23,7 +23,7 @@ class IndexController extends Controller {
         $res4=$Contents->query("select pass_id ,title from tb_passage where type=4 order by pass_id desc limit 6;"); 
         $this->assign("items4",$res4);  
 
-           
+        $this->show_weather();
         $this->display();
     }
 
@@ -150,6 +150,34 @@ class IndexController extends Controller {
             echo "Sorry ";
         }
     }
+
+// 这个是调取天气的函数
+function show_weather($city="西安"){ 
+    $location=$city;
+    $ak="rct7nOT2tnk6zYM983v7q7F3";
+    $output="json";
+    $url="http://api.map.baidu.com/telematics/v3/weather?location=".$location."&output=".$output."&ak=".$ak;
+    $res=file_get_contents($url);
+    $decode=json_decode($res);
+
+    // echo "城市 : ".$decode->results[0]->currentCity;
+    $city=$decode->results[0]->currentCity;
+    $this->assign("city",$city);
+    // 时间
+    $curr_time=$decode->date;
+    $this->assign("curr_time",$curr_time);
+    // echo "<hr/>";
+    $day_img=$decode->results[0]->weather_data[0]->dayPictureUrl;
+    // echo "DAY  Weather IMG : ";
+    $this->assign("weather_img",$day_img);
+    // echo "<img src='".$day_img."'/>";
+    // echo "<hr/>";
+    echo "概要 : ".$decode->results[0]->weather_data[0]->date;
+    // echo "<hr/>";
+    // echo "温度: ".$decode->results[0]->weather_data[0]->temperature;
+    $temprature=$decode->results[0]->weather_data[0]->temperature;
+    $this->assign("temprature",$temprature);
+}
 
     // 空操作方法
     public function _empty(){

@@ -23,7 +23,7 @@ class AdminController extends Controller{
 		if($res){
 			echo "恭喜你,文章发表成功 !";
 		}else{
-			echo "Sorry , please try again !";
+			echo "Sorry ,文章发表失败,请重新发表 !";
 		}
 
 	}

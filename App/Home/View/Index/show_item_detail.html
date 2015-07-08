@@ -16,7 +16,9 @@
 <!-- 页面头部的开始 -->
   <div class="row " style="margin-top:20px;margin-bottom:20px;background:#A5C48E; padding:50px;">
       <div class="col-md-4 col-sm-4 col-xs-4 pull-left">
-        <a href="__URL__/Index/index"> <span id="title_website"> 中华军事网  </span></a>
+        <a href="__URL__/Index/index">  
+<img src="<{$Think.const.IMG_URL}>logo2.png">
+          </a>
       </div>
       <div class="col-md-4 col-sm-4 col-xs-4  ">
           
@@ -39,11 +41,13 @@
                <h3><{$pass_info.title}></h3>
                
                <div class="col-md-4 col-sm-4 col-xs col-md-offset-5 col-sm-offset-5 col-xs-offset-5 text-right">
-                 <h5><{$pass_info.time}> &nbsp;&nbsp;<{$pass_info.user}></h5> <hr/>
+                 <h5><span class="glyphicon glyphicon-calendar"></span>  &nbsp;&nbsp;  <{$pass_info.time}> &nbsp;&nbsp;
+                <span class="glyphicon glyphicon-user"></span>
+                 <{$pass_info.user}></h5> <hr/>
                </div>
             </div>
       <!-- 文章的图片 -->
-      <img class="img-responsive" src="<{$Think.const.IMG_URL}>detail.jpg"/>
+      <!-- <img class="img-responsive" src="<{$Think.const.IMG_URL}>detail.jpg"/> -->
       <!-- 文章的主题部分 -->
       <br/>
       <br/>
@@ -56,7 +60,7 @@
       <input type="hidden" id="pass_id" value="<{$pass_id}>"/>
       <!-- 添加评论的url -->
       <input type="hidden" id="add_comment_url" value="<{$Think.const.ADD_COMMENTS_URL}>"/>
-      <h3>发表评论</h3>
+      <h3 style="color:green;"><span class="glyphicon glyphicon-list"></span> &nbsp;&nbsp;<b>发表评论</b></h3>
       <textarea id="say_words" class="form-control " rows="5"></textarea>
       <br/>
 
@@ -71,14 +75,18 @@
 <volist name="info" id="v">
         <div class="col-sm-12 col-md-12 col-lg-12  ">
            <div class="col-sm-9 col-md-9 col-lg-9 z-top" >
-              <b class="z-name"><span style="color:#EA4D10">User ID</span> : <{$v.user_id}> </b> &nbsp;&nbsp;&nbsp;
-              <span class="z-time"><{$v.time}></span> 
+              <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;
+               <b class="z-name"><span style="color:#EA4D10">User ID</span> : <{$v.user_id}> </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="glyphicon glyphicon-calendar"></span>
+              <span class="z-time "> &nbsp;<{$v.time}></span> 
            </div> 
+
             <div class="col-sm-3 col-md-3 col-lg-3 text-right  z-top" >
+              <span class="glyphicon glyphicon-object-align-bottom"></span> &nbsp;&nbsp;
             <{$v.ip}>  <b class="z-name"><span style="color:#EA4D10">IP</span></b>
             </div>
             <hr/>
-           <div class="z-content col-sm-12 col-md-12 col-lg-12">
+           <div class="z-content col-sm-12 col-md-12 col-lg-12" style="text-indent:2em;padding-top:15px;padding-bottom:6px;">
               <{$v.say}>
            </div>
         </div>
@@ -174,14 +182,14 @@
   <br/>
      <div class="col-md-12 col-sm-12 col-xs-12">
        <span>
-           邮箱 : lovephp@foxmail.com 
+           <span class="glyphicon glyphicon-envelope"></span> : lovephp@foxmail.com 
   <hr style="border:1px solid gray" />
        </span>
      </div>
   
      <div class="col-md-12 col-sm-12 col-xs-12">
        <span>
-          联系方式 : 15769207754  
+          <span class="glyphicon glyphicon-earphone"></span> : 15769207754  
   <hr style="border:1px solid gray" />
        </span>
      </div>
@@ -241,5 +249,11 @@
           });
     });
 </script>
+<!-- 获取所有的图片,添加自适应的样式 -->
+<script type="text/javascript">
+$(function(){
+    $("img").addClass("img-responsive");
+});
 
+</script>
 </html>

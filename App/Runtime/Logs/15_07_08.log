@@ -112,3 +112,204 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+[ 2015-07-08T13:02:08+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.002000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'美国包括对中国在内的外交政策有根本性错误','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150708/1436331703116986.jpg&quot; title=&quot;1436331703116986.jpg&quot; alt=&quot;2015-07-08_130041.jpg&quot; width=&quot;563&quot; height=&quot;312&quot; style=&quot;width: 563px; height: 312px;&quot;/&gt;','SmallRain','2015-07-08') [ RunTime:0.177010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-08T13:04:17+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.047003s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'解放军全军唯一空降医疗队曝光！人员装备全部空投','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150708/1436331854627919.jpg&quot; title=&quot;1436331854627919.jpg&quot; alt=&quot;2015-07-08_130353.jpg&quot;/&gt;&lt;/p&gt;','SmallRain','2015-07-08') [ RunTime:0.057003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-08T13:05:45+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.002000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (3,'中国已持有塔吉克斯坦近一半外债','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150708/1436331928936801.jpg&quot; title=&quot;1436331928936801.jpg&quot; alt=&quot;2015-07-08_130505.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;','SmallRain','2015-07-08') [ RunTime:0.054003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-08T13:09:52+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='SmallRain' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (30,2,'Come on baby !','2015-07-08 01:09 pm','127.0.0.1') [ RunTime:0.062004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-08T13:18:55+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='SmallRain' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.002000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (32,2,'Hello world !','2015-07-08 01:18 pm','127.0.0.1') [ RunTime:0.073004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-08T13:37:04+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/index
+ERR: Think\Controller:assigin方法不存在！
+
+[ 2015-07-08T15:02:28+08:00 ] 172.16.129.10 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.044002s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'中国建新型机动登陆平台 或抄袭美国设计','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150708/1436338943374806.jpg&quot; title=&quot;1436338943374806.jpg&quot; alt=&quot;2015-07-08_150210.jpg&quot;/&gt;&lt;/p&gt;',null,'2015-07-08') [ RunTime:0.009001s ]
+ERR: 1048:Column 'user' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'中国建新型机动登陆平台 或抄袭美国设计','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150708/1436338943374806.jpg&quot; title=&quot;1436338943374806.jpg&quot; alt=&quot;2015-07-08_150210.jpg&quot;/&gt;&lt;/p&gt;',null,'2015-07-08')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-08T15:02:58+08:00 ] 172.16.129.10 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'中国建新型机动登陆平台 或抄袭美国设计','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150708/1436338976600250.jpg&quot; title=&quot;1436338976600250.jpg&quot; alt=&quot;2015-07-08_150210.jpg&quot;/&gt;&lt;/p&gt;',null,'2015-07-08') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'中国建新型机动登陆平台 或抄袭美国设计','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20150708/1436338976600250.jpg&quot; title=&quot;1436338976600250.jpg&quot; alt=&quot;2015-07-08_150210.jpg&quot;/&gt;&lt;/p&gt;',null,'2015-07-08')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-08T15:03:11+08:00 ] 172.16.129.10 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'中国建新型机动登陆平台 或抄袭美国设计','',null,'2015-07-08') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'中国建新型机动登陆平台 或抄袭美国设计','',null,'2015-07-08')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-08T15:04:07+08:00 ] 172.16.129.10 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'172.16.129.10' (using password: YES) D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Access denied for user 'root'@'172.16.129.10' (using password: YES)
+
+[ 2015-07-08T15:04:13+08:00 ] 172.16.129.10 /SmallRain/index.php/Home/Index/index.html
+ERR: Access denied for user 'root'@'172.16.129.10' (using password: YES)
+
+[ 2015-07-08T15:05:06+08:00 ] 172.16.129.10 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'中国建新型机动登陆平台 或抄袭美国设计','',null,'2015-07-08') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (2,'中国建新型机动登陆平台 或抄袭美国设计','',null,'2015-07-08')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-08T15:09:02+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'Testing','&lt;p&gt;testing contens&lt;/p&gt;','SmallRain','2015-07-08') [ RunTime:0.110007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-08T15:11:48+08:00 ] 172.16.129.10 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'Hello world','&lt;p&gt;Hello world contents&lt;/p&gt;',null,'2015-07-08') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'Hello world','&lt;p&gt;Hello world contents&lt;/p&gt;',null,'2015-07-08')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-08T15:12:28+08:00 ] 172.16.129.10 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'172.16.129.10' (using password: YES) D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Access denied for user 'root'@'172.16.129.10' (using password: YES)
+
+[ 2015-07-08T15:16:22+08:00 ] 172.16.129.10 /SmallRain/
+ERR: Access denied for user 'root'@'172.16.129.10' (using password: YES)
+
+[ 2015-07-08T15:17:53+08:00 ] 172.16.129.10 /SmallRain/index.php/Home/Admin/get_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_passage` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'Just for fun ','&lt;p&gt;fun&lt;/p&gt;',null,'2015-07-08') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_passage` (`type`,`title`,`content`,`user`,`time`) VALUES (1,'Just for fun ','&lt;p&gt;fun&lt;/p&gt;',null,'2015-07-08')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
