@@ -17,8 +17,10 @@
 
 	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:url('<{$Think.const.IMG_URL}>bg.jpg');">
 	<hr/>
-		<div  class="col-md-12">
-		<img class="img-responsive center-block left_width" style="opacity:1.0;filter:Alpha(opacity=100);"  src="<{$Think.const.IMG_URL}>logo1.jpg"/>
+		<div  class="col-md-12 scrollnav"  id="scrollnav">
+		<a  date-scroll="#team" href="">
+				<img class="img-responsive center-block left_width" style="opacity:1.0;filter:Alpha(opacity=100);"  src="<{$Think.const.IMG_URL}>logo1.jpg"/>
+		</a>
 		</div>
 	<hr/>
 <!-- 实用工具开始 -->
@@ -72,7 +74,10 @@
 <!-- 登录注册开始 -->
 	<div class="row text-center" style="margin-top:20px;">
 			<div class="col-md-3 text-center ">
-			<span id="title_website"> 中华军事网</span>
+			<span id="title_website"> 中华军事网</span> &nbsp;&nbsp;&nbsp;
+			<a href="<{:U('Home/Admin/index')}>">
+				<button class="btn btn-info"><b>小雨滴团队</b> 专用添加内容按钮</button>
+			</a>
 			</div>
 			<div class="col-md-4 pull-right text-center" >
 				 <a href="__URL__/login">
@@ -278,7 +283,7 @@
 
 
 <!-- 底部页脚的开始 -->
-<div class="img_opacity  row foot_font_size" style="height:352px;background:#2d3237">
+<div id="team" class="img_opacity  row foot_font_size" style="height:352px;background:#2d3237">
 	<div class="col-md-6 col-sm-6 col-xs-6 hidden-sm hidden-xs" >
 	<!-- 第一排图片开始 -->
 		<div class="col-md-12 ">

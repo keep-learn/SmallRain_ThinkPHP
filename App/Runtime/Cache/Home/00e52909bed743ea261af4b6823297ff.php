@@ -17,8 +17,10 @@
 
 	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:url('<?php echo (IMG_URL); ?>bg.jpg');">
 	<hr/>
-		<div  class="col-md-12">
-		<img class="img-responsive center-block left_width" style="opacity:1.0;filter:Alpha(opacity=100);"  src="<?php echo (IMG_URL); ?>logo1.jpg"/>
+		<div  class="col-md-12 scrollnav"  id="scrollnav">
+		<a  date-scroll="#team" href="">
+				<img class="img-responsive center-block left_width" style="opacity:1.0;filter:Alpha(opacity=100);"  src="<?php echo (IMG_URL); ?>logo1.jpg"/>
+		</a>
 		</div>
 	<hr/>
 <!-- 实用工具开始 -->
@@ -72,15 +74,18 @@
 <!-- 登录注册开始 -->
 	<div class="row text-center" style="margin-top:20px;">
 			<div class="col-md-3 text-center ">
-			<span id="title_website"> 中华军事网</span>
+			<span id="title_website"> 中华军事网</span> &nbsp;&nbsp;&nbsp;
+			<a href="<?php echo U('Home/Admin/index');?>">
+				<button class="btn btn-info"><b>小雨滴团队</b> 专用添加内容按钮</button>
+			</a>
 			</div>
 			<div class="col-md-4 pull-right text-center" >
-				 <a href="/Smallrain/index.php/Home/Index/login">
+				 <a href="/SmallRain/index.php/Home/Index/login">
 				 <button class="btn btn-success">
 					<?php echo ($login_user_name); ?>
 				 </button>
 				 </a>
-				 <a href="/Smallrain/index.php/Home/Index/register"><button class="btn btn-success">注册</button></a>
+				 <a href="/SmallRain/index.php/Home/Index/register"><button class="btn btn-success">注册</button></a>
 			</div>
 	</div>
 	<hr style="border:2px solid green"/>
@@ -154,7 +159,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 <a href="/Smallrain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
+						 <a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						 <?php echo ($v["title"]); ?>
 						 </a> 
 					</div>
@@ -186,7 +191,7 @@
 <?php if(is_array($items2)): $i = 0; $__LIST__ = $items2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						<a href="/Smallrain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
+						<a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						<?php echo ($v["title"]); ?>
 						</a>
 					</div>
@@ -218,7 +223,7 @@
 <?php if(is_array($items3)): $i = 0; $__LIST__ = $items3;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						<a href="/Smallrain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
+						<a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						<?php echo ($v["title"]); ?>
 						</a>
 					</div>
@@ -248,7 +253,7 @@
 <?php if(is_array($items4)): $i = 0; $__LIST__ = $items4;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 <a href="/Smallrain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
+						 <a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						 <?php echo ($v["title"]); ?>
 						 </a>
 					</div>
@@ -266,7 +271,7 @@
 
 
 <!-- 底部页脚的开始 -->
-<div class="img_opacity  row foot_font_size" style="height:352px;background:#2d3237">
+<div id="team" class="img_opacity  row foot_font_size" style="height:352px;background:#2d3237">
 	<div class="col-md-6 col-sm-6 col-xs-6 hidden-sm hidden-xs" >
 	<!-- 第一排图片开始 -->
 		<div class="col-md-12 ">

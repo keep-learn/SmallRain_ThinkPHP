@@ -18,7 +18,13 @@
 
 <!-- 页面主题的开始 -->
 <div class="container " style="margin-top:30px;">
+		<a href="<?php echo U('Home/Index/index');?>">
+			<button class="btn btn-info">返回首页</button>
+		</a>
+
 	<h1>发表文章页面</h1><br/><hr style="border:1px solid green"/><br/>
+
+
 
 		<div class="col-md-2 col-sm-2 col-xs-2">
 			<span>文章标题 : </span> <br/><br/> <br/><br/>
@@ -80,10 +86,10 @@
 				url:"get_content",
 				data:"title="+$title+"&type="+$type+"&content="+$content,
 				success:function(data){
-					// alert(data);
+					alert(data);
 				},
 				error:function(){
-					alert("sorry");
+					alert("sorry , 文章发表失败 !");
 				}
 
 			});

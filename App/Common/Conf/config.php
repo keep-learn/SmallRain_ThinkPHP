@@ -13,6 +13,9 @@ return array(
     'DB_PWD'                =>  'lovezbs',          // 密码
     'DB_PORT'               =>  '3306',        // 端口
     'DB_PREFIX'             =>  'tb_',    // 数据库表前缀
+
+'URL_DENY_SUFFIX'       =>  '', // URL禁止访问的后缀设置
+
 // 获取url参数中的信息
     'VAR_URL_PARAMS'      => '_URL_' // PATHINFO URL参数变量
 

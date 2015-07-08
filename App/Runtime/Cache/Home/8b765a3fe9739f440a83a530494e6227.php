@@ -16,14 +16,14 @@
 <!-- 页面头部的开始 -->
   <div class="row " style="margin-top:20px;margin-bottom:20px;background:#A5C48E; padding:50px;">
       <div class="col-md-4 col-sm-4 col-xs-4 pull-left">
-        <a href="/Smallrain/index.php/Home/Index/Index/index"> <span id="title_website"> 中华军事网  </span></a>
+        <a href="/SmallRain/index.php/Home/Index/Index/index"> <span id="title_website"> 中华军事网  </span></a>
       </div>
       <div class="col-md-4 col-sm-4 col-xs-4  ">
           
       </div>
       <div class="col-md-4 col-sm-4 col-xs-4 pull-right text-right">
           <span id="user_font">
-          <a href="/Smallrain/index.php/Home/Index/index">
+          <a href="/SmallRain/index.php/Home/Index/index">
           <button class="btn btn-lg btn-info"><?php echo ($login_user_name); ?></button>
           </a>
           </span>
