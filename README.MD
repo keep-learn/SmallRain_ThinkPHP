@@ -1,4 +1,4 @@
-## 一个关于军事的网站 
+﻿## 一个关于军事的网站 
 ## 基于 BootStrap 和 ThinkPHP 
 ---
 
@@ -17,7 +17,7 @@ Hope I can be better and better
 ![](./bg.jpg)
 
 
-### 网站托管在sina app 上面.
+### 网站托管在sina SAE 上面.
 
 ### 注意: 代码仅供学习参考,不得非法使用
 
