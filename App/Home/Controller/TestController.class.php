@@ -31,6 +31,13 @@ class TestController extends Controller{
 	public function test(){
 		$this->display('test');
 	}
+
+	public function test5(){
+		// echo "Hello world , this is the test5 file of page ! ";
+		$name="Zhang Bing Shuai ";
+		$this->assign('name',$name);
+		$this->display('test5');
+	}
 }
 
 ?>

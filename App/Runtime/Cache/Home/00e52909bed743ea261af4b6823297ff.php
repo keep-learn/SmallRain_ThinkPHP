@@ -9,13 +9,18 @@
 	<link rel="icon" href="<?php echo (IMG_URL); ?>favicon.ico" type="image/x-icon">
 
 </head>
+<style>
+.item_background{
+	background: url("<?php echo (IMG_URL); ?>bg5.jpg");
+}
+</style>
 <body>
 
 <!-- 页面总容器的开始 -->
 <div class="container">
 <!-- 左边的导航区开始-->
 
-	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:url('<?php echo (IMG_URL); ?>bg.jpg');">
+	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:rgba(0,0,0,0.4);">
 	<hr/>
 		<div  class="col-md-12 scrollnav"  id="scrollnav">
 		<a  date-scroll="#team" href="">
@@ -146,7 +151,7 @@
 
 
 <!-- 第 1 个导航条 -->
-	<div id="one" class=" img_opacity  col-md-12" style="margin-top:30px;border:0px solid green;background:rgba(155,148,94,0.5)">
+	<div id="one" class=" img_opacity  col-md-12 item_background" style="margin-top:30px;border:0px solid green;">
 	 	<div class="col-md-12" >
 
 	 		 <h2>
@@ -161,14 +166,16 @@
 <!-- 开始循环 -->
 <?php if(is_array($items)): $i = 0; $__LIST__ = $items;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><!-- 每个条目的第1行 -->
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
 						 <a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						 <?php echo ($v["title"]); ?>
 						 </a> 
 					</div>
+
 				</div>
-				<hr/><?php endforeach; endif; else: echo "" ;endif; ?>
+				<!-- <hr/> --><?php endforeach; endif; else: echo "" ;endif; ?>
+<!-- <hr style="border:1px solid gray"   /> -->
 <!-- 结束循环	 -->
 
 			</div>
@@ -193,14 +200,15 @@
 			   <!-- 每个条目的第1行 -->
 <!-- 循环的开始 -->
 <?php if(is_array($items2)): $i = 0; $__LIST__ = $items2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
 						<a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						<?php echo ($v["title"]); ?>
 						</a>
 					</div>
 				</div>
-				<hr/><?php endforeach; endif; else: echo "" ;endif; ?>
+				<!-- <hr/> --><?php endforeach; endif; else: echo "" ;endif; ?>
+<!-- <hr style="border:1px solid gray"   /> -->
 <!-- 循环的结束 -->
 
 			</div>
@@ -225,14 +233,15 @@
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 			   <!-- 每个条目的第1行 -->
 <?php if(is_array($items3)): $i = 0; $__LIST__ = $items3;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
 						<a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						<?php echo ($v["title"]); ?>
 						</a>
 					</div>
 				</div>
-				<hr/><?php endforeach; endif; else: echo "" ;endif; ?>
+				<!-- <hr/> --><?php endforeach; endif; else: echo "" ;endif; ?>
+	 	<!-- <hr style="border:2px solid gray"/> -->
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
 		 		 <img src="<?php echo (IMG_URL); ?>item3.jpg" class="img-responsive hidden-xs hidden-sm" />
@@ -248,14 +257,14 @@
 					<span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> 
 					&nbsp;&nbsp;
 	 		 军史</h2>
-	 		 <hr style="border:1px solid gray"   />
+	 		 <!-- <hr style="border:1px solid gray"   /> -->
 	 	</div>
 	 	
 	 	<div class="row  ">
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 			   <!-- 每个条目的第1行 -->
 <?php if(is_array($items4)): $i = 0; $__LIST__ = $items4;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
 						 <a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						 <?php echo ($v["title"]); ?>
@@ -263,7 +272,7 @@
 					</div>
 
 				</div>
-				<hr/><?php endforeach; endif; else: echo "" ;endif; ?>
+				<!-- <hr/> --><?php endforeach; endif; else: echo "" ;endif; ?>
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
 		 		 <img src="<?php echo (IMG_URL); ?>item4.jpg" class="img-responsive hidden-xs hidden-sm" />

@@ -11,16 +11,16 @@ class IndexController extends Controller {
         }
 
         $Contents=M('passage');
-        $res1=$Contents->query("select pass_id ,title from tb_passage where type=1 order by pass_id desc limit 6;");
+        $res1=$Contents->query("select pass_id ,title from tb_passage where type=1 order by pass_id desc limit 10;");
         $this->assign("items",$res1);  
         
-        $res2=$Contents->query("select pass_id ,title from tb_passage where type=2 order by pass_id desc limit 6;"); 
+        $res2=$Contents->query("select pass_id ,title from tb_passage where type=2 order by pass_id desc limit 10;"); 
         $this->assign("items2",$res2);  
         
-        $res3=$Contents->query("select pass_id ,title from tb_passage where type=3 order by pass_id desc limit 6;"); 
+        $res3=$Contents->query("select pass_id ,title from tb_passage where type=3 order by pass_id desc limit 10;"); 
         $this->assign("items3",$res3);  
         
-        $res4=$Contents->query("select pass_id ,title from tb_passage where type=4 order by pass_id desc limit 6;"); 
+        $res4=$Contents->query("select pass_id ,title from tb_passage where type=4 order by pass_id desc limit 10;"); 
         $this->assign("items4",$res4);  
 
         $this->show_weather();

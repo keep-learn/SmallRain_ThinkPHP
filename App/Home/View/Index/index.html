@@ -9,13 +9,18 @@
 	<link rel="icon" href="<{$Think.const.IMG_URL}>favicon.ico" type="image/x-icon">
 
 </head>
+<style>
+.item_background{
+	background: url("<{$Think.const.IMG_URL}>bg5.jpg");
+}
+</style>
 <body>
 
 <!-- 页面总容器的开始 -->
 <div class="container">
 <!-- 左边的导航区开始-->
 
-	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:url('<{$Think.const.IMG_URL}>bg.jpg');">
+	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:rgba(0,0,0,0.4);">
 	<hr/>
 		<div  class="col-md-12 scrollnav"  id="scrollnav">
 		<a  date-scroll="#team" href="">
@@ -146,7 +151,7 @@
 
 
 <!-- 第 1 个导航条 -->
-	<div id="one" class=" img_opacity  col-md-12" style="margin-top:30px;border:0px solid green;background:rgba(155,148,94,0.5)">
+	<div id="one" class=" img_opacity  col-md-12 item_background" style="margin-top:30px;border:0px solid green;">
 	 	<div class="col-md-12" >
 
 	 		 <h2>
@@ -166,15 +171,17 @@
 
 			   <!-- 每个条目的第1行 -->
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
 						 <a href="__URL__/show_item_detail/id/<{$v.pass_id}>" target="_blank">
 						 <{$v.title}>
 						 </a> 
 					</div>
+
 				</div>
-				<hr/>
+				<!-- <hr/> -->
 </volist>
+<!-- <hr style="border:1px solid gray"   /> -->
 <!-- 结束循环	 -->
 
 			</div>
@@ -200,15 +207,16 @@
 <!-- 循环的开始 -->
 <volist name="items2" id="v" >
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
 						<a href="__URL__/show_item_detail/id/<{$v.pass_id}>" target="_blank">
 						<{$v.title}>
 						</a>
 					</div>
 				</div>
-				<hr/>
+				<!-- <hr/> -->
 </volist>
+<!-- <hr style="border:1px solid gray"   /> -->
 <!-- 循环的结束 -->
 
 			</div>
@@ -234,15 +242,16 @@
 			   <!-- 每个条目的第1行 -->
 <volist name="items3" id="v" >
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
 						<a href="__URL__/show_item_detail/id/<{$v.pass_id}>" target="_blank">
 						<{$v.title}>
 						</a>
 					</div>
 				</div>
-				<hr/>
+				<!-- <hr/> -->
 </volist>
+	 	<!-- <hr style="border:2px solid gray"/> -->
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
 		 		 <img src="<{$Think.const.IMG_URL}>item3.jpg" class="img-responsive hidden-xs hidden-sm" />
@@ -258,7 +267,7 @@
 					<span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> 
 					&nbsp;&nbsp;
 	 		 军史</h2>
-	 		 <hr style="border:1px solid gray"   />
+	 		 <!-- <hr style="border:1px solid gray"   /> -->
 	 	</div>
 	 	
 	 	<div class="row  ">
@@ -266,7 +275,7 @@
 			   <!-- 每个条目的第1行 -->
 <volist name="items4" id="v" >
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
 						 <a href="__URL__/show_item_detail/id/<{$v.pass_id}>" target="_blank">
 						 <{$v.title}>
@@ -274,7 +283,7 @@
 					</div>
 
 				</div>
-				<hr/>
+				<!-- <hr/> -->
 </volist>
 			</div>
 		 	<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
