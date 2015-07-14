@@ -1,0 +1,17 @@
+ul li img{
+	margin-left:100px;
+	width:50px;
+	height:50px;
+	border-radius:150px;
+}
+.second li{
+	margin-top:15px;
+}
+.name_style{
+	background: #2C88F8;
+	color:white;
+}
+.end_ppt{
+	background: #81AA83;
+	opacity: 0.8;
+}

@@ -20,7 +20,7 @@
 <div class="container">
 <!-- 左边的导航区开始-->
 
-	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:rgba(0,0,0,0.4);">
+	<div  class="col-md-3 col-sm-3 hidden-xs bg" style="background:url('<?php echo (IMG_URL); ?>bg8.jpg')">
 	<hr/>
 		<div  class="col-md-12 scrollnav"  id="scrollnav">
 		<a  date-scroll="#team" href="">

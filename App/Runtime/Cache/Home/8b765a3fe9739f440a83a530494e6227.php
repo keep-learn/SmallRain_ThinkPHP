@@ -239,8 +239,12 @@
                 url :$add_comment_url,
                 data:"say_words="+$say_words+"&pass_id="+$pass_id,
                 success:function(data){
+                  if(data=="Success"){
                     alert("评论发表 成功 ! ");
                     $("#add_comment").append("<b style='color:#EA4D10;font-size:24px;'>发表的内容是 :</b> <b style='color:green;font-size:24px;'>"+$say_words);
+                  }else{
+                    alert("亲,请登录 !");
+                  }
                 }
               });
               // 显示发表的评论

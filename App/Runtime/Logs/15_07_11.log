@@ -1,0 +1,92 @@
+[ 2015-07-11T23:20:22+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.077004s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='' ) LIMIT 1   [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'hello','2015-07-11 11:20 pm','127.0.0.1') [ RunTime:0.023002s ]
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'hello','2015-07-11 11:20 pm','127.0.0.1')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-11T23:20:46+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-11T23:24:34+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'','2015-07-11 11:24 pm','127.0.0.1') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'','2015-07-11 11:24 pm','127.0.0.1')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-11T23:24:38+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'safwef','2015-07-11 11:24 pm','127.0.0.1') [ RunTime:0.001000s ]
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'safwef','2015-07-11 11:24 pm','127.0.0.1')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-11T23:24:40+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'safwef','2015-07-11 11:24 pm','127.0.0.1') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'safwef','2015-07-11 11:24 pm','127.0.0.1')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-11T23:24:44+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'safwefsafwe','2015-07-11 11:24 pm','127.0.0.1') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (36,null,'safwefsafwe','2015-07-11 11:24 pm','127.0.0.1')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

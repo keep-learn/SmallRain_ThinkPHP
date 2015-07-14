@@ -118,6 +118,11 @@ class IndexController extends Controller {
 
 // 插入用户评论的内容
     public function add_comments(){
+
+        if(cookie('login_user_name')==""){
+           echo "Sorry ";
+        }
+
         // 获取收到的评论内容
         $comments=I('post.say_words');
         // 获取文章的id
@@ -145,9 +150,9 @@ class IndexController extends Controller {
 
         // 判断是否成功
         if($res){
-            echo "Success ";
+            echo "Success";
         }else{
-            echo "Sorry ";
+            echo "Sorry";
         }
     }
 
