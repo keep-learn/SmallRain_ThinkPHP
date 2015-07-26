@@ -16,7 +16,7 @@
 <!-- 页面头部的开始 -->
   <div class="row " style="margin-top:20px;margin-bottom:20px;background:#A5C48E; padding:50px;">
       <div class="col-md-4 col-sm-4 col-xs-4 pull-left">
-        <a href="/SmallRain/index.php/Home/Index/Index/index">  
+        <a href="/Smallrain/index.php/Home/Index/Index/index">  
 <img src="<?php echo (IMG_URL); ?>logo2.png">
           </a>
       </div>
@@ -25,7 +25,7 @@
       </div>
       <div class="col-md-4 col-sm-4 col-xs-4 pull-right text-right">
           <span id="user_font">
-          <a href="/SmallRain/index.php/Home/Index/index">
+          <a href="/Smallrain/index.php/Home/Index/index">
           <button class="btn btn-lg btn-info"><?php echo ($login_user_name); ?></button>
           </a>
           </span>
@@ -64,7 +64,10 @@
       <textarea id="say_words" class="form-control " rows="5"></textarea>
       <br/>
 
-      <button id="btn_say_word" class="btn btn-success">发表评论</button>
+      <button id="btn_say_word" class="btn btn-success">发表评论<span id="show_add_common">message ...</span></button> 
+      <hr/>
+      
+
       <hr/>
       <!-- 富文本编辑器结束 -->
 
@@ -229,6 +232,8 @@
               $pass_id=$("#pass_id").val();
               // 添加文章的url
               $add_comment_url=$("#add_comment_url").val();
+              // 加载文件旋转图片,loading.gif 图标
+              $loading_img='<?php echo (IMG_URL); ?>loading.gif';
               // alert("pass_id is "+$pass_id);
               // 获取用户的id  /都从控制器中来获得信息
               // 获取时间  /都从控制器中来获得信息
@@ -240,11 +245,15 @@
                 data:"say_words="+$say_words+"&pass_id="+$pass_id,
                 success:function(data){
                   if(data=="Success"){
-                    alert("评论发表 成功 ! ");
+                    // alert("评论发表 成功 ! ");
+                    $('#show_add_common').hide();
                     $("#add_comment").append("<b style='color:#EA4D10;font-size:24px;'>发表的内容是 :</b> <b style='color:green;font-size:24px;'>"+$say_words);
                   }else{
                     alert("亲,请登录 !");
                   }
+                },
+                beforeSend:function(){
+                    $('#show_add_common').html("<img src='<?php echo (IMG_URL); ?>loading.gif'/>");
                 }
               });
               // 显示发表的评论

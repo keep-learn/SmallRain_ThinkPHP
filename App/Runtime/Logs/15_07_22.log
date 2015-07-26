@@ -1,0 +1,139 @@
+[ 2015-07-22T12:28:34+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.046002s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (29,null,'','2015-07-22 12:28 pm','127.0.0.1') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (29,null,'','2015-07-22 12:28 pm','127.0.0.1')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-07-22T12:28:39+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.005000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (29,null,'','2015-07-22 12:28 pm','127.0.0.1') [ RunTime:0.000000s ]
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (29,null,'','2015-07-22 12:28 pm','127.0.0.1')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-22T12:29:03+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='SmallRain' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (35,2,'Come on ','2015-07-22 12:29 pm','127.0.0.1') [ RunTime:0.102006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-22T12:32:37+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='SmallRain' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (35,2,'Fei chang ','2015-07-22 12:32 pm','127.0.0.1') [ RunTime:0.061003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-22T12:33:13+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='SmallRain' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.005000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (35,2,'Hope you can be better and better !','2015-07-22 12:33 pm','127.0.0.1') [ RunTime:0.083005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-22T12:34:00+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='SmallRain' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003001s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (35,2,'You are so clever !','2015-07-22 12:34 pm','127.0.0.1') [ RunTime:0.182010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-22T12:37:22+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='SmallRain' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003001s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (35,2,'Best friends !','2015-07-22 12:37 pm','127.0.0.1') [ RunTime:0.055003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-22T12:48:50+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='SmallRain' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (35,2,'Come on baby , I hope you can be better and better !','2015-07-22 12:48 pm','127.0.0.1') [ RunTime:0.088005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-22T12:53:37+08:00 ] 127.0.0.1 /SmallRain/index.php/Home/Index/add_comments
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\www\SmallRain\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tb_member` WHERE ( username='SmallRain' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.003000s ]
+SQL: INSERT INTO `tb_comment` (`pass_id`,`user_id`,`say`,`time`,`ip`) VALUES (35,2,'zbs.hk is a greate domain ','2015-07-22 12:53 pm','127.0.0.1') [ RunTime:0.059003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

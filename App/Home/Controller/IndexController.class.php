@@ -137,7 +137,7 @@ class IndexController extends Controller {
         $user_name=cookie('login_user_name');
         $user=M('member')->where("username='%s'",array($user_name))->find();
         $user_id=$user['user_id'];
-        var_dump($user);
+        // var_dump($user);
 
         $data['pass_id']=$pass_id;
         $data['user_id']=$user_id;
@@ -156,8 +156,24 @@ class IndexController extends Controller {
         }
     }
 
+// 根据ip显示城市信息
+function taobaoIP($clientIP){
+        $taobaoIP = 'http://ip.taobao.com/service/getIpInfo.php?ip='.$clientIP;
+        $IPinfo = json_decode(file_get_contents($taobaoIP));
+        $city = $IPinfo->data->city;
+        $data = $city;
+        echo  $data;
+    }
+
+
 // 这个是调取天气的函数
 function show_weather($city="西安"){ 
+
+    $ip=get_client_ip();
+    $city=$this->taobaoIP($ip);
+
+    // $city="石家庄";
+
     $location=$city;
     $ak="rct7nOT2tnk6zYM983v7q7F3";
     $output="json";

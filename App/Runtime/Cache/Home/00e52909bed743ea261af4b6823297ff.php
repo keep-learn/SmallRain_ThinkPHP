@@ -89,12 +89,12 @@
 			<a href="<?php echo U('Home/Admin/index');?>">
 				<button class="btn btn-info"><b>小雨滴团队</b> 专用添加内容按钮</button>
 			</a>
-				 <a href="/SmallRain/index.php/Home/Index/login">
+				 <a href="/Smallrain/index.php/Home/Index/login">
 				 <button class="btn btn-success">
 					<?php echo ($login_user_name); ?>
 				 </button>
 				 </a>
-				 <a href="/SmallRain/index.php/Home/Index/register"><button class="btn btn-success">注册</button></a>
+				 <a href="/Smallrain/index.php/Home/Index/register"><button class="btn btn-success">注册</button></a>
 			</div>
 	</div>
 	<hr style="border:2px solid green"/>
@@ -168,7 +168,7 @@
 				<div class="row">
 					<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 <a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
+						 <a href="/Smallrain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						 <?php echo ($v["title"]); ?>
 						 </a> 
 					</div>
@@ -202,7 +202,7 @@
 <?php if(is_array($items2)): $i = 0; $__LIST__ = $items2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						<a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
+						<a href="/Smallrain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						<?php echo ($v["title"]); ?>
 						</a>
 					</div>
@@ -235,7 +235,7 @@
 <?php if(is_array($items3)): $i = 0; $__LIST__ = $items3;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						<a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
+						<a href="/Smallrain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						<?php echo ($v["title"]); ?>
 						</a>
 					</div>
@@ -266,7 +266,7 @@
 <?php if(is_array($items4)): $i = 0; $__LIST__ = $items4;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 items_height">
 						 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;
-						 <a href="/SmallRain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
+						 <a href="/Smallrain/index.php/Home/Index/show_item_detail/id/<?php echo ($v["pass_id"]); ?>" target="_blank">
 						 <?php echo ($v["title"]); ?>
 						 </a>
 					</div>
